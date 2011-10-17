@@ -1,0 +1,131 @@
+/* Yahoo Reset Styles
+Copyright (c) 2011, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.9.0
+*/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+
+/*Screen Styles*/
+
+html {
+  background-image: url('img/20px-baseline1.png');
+  background: #FFFEFA;
+	font-family: Georgia, serif;
+	
+	text-align: center;
+}
+
+body {
+  font-family: Georgia, serif; /* Use Helvetica, Arial, or a sans-serif font*/
+  font-size: 16px; /* Set the base font size to 14px */
+  line-height: 20px; /* Set line height for the page to 20px */
+	padding-top: 20px; /* Add some padding to the top of the page */
+   /* Add padding along the left of the page, for the length of the page */
+	 /* In order to   */
+	border-top: 40px solid #58373B; /* Add brown border along the top of the page. Alternate green #7C9C46 #858C4D*/
+	border-bottom: 40px solid #58373B;
+	text-align: center;
+}
+
+div#page{
+	text-align: center;
+}
+
+div#top {
+	font-size: 36px; /* Set page title font size */
+	text-align: center;
+	padding: 14px;
+  display: inline; 
+  color: black;
+	padding-bottom: 1em;
+	
+
+}
+div#top2 {
+  font-size: 28px; /* Set page title font size */
+	text-align: center;
+  padding:14px;
+  display: inline; 
+  color: black;
+	padding-top: 200px;
+	
+	
+  font-weight: ;
+}
+
+h1 {
+	font-size: 24px;
+	padding-bottom: 20em;
+	text-align: center;
+}
+
+div#navig {
+  font-family: Georgia, Arial, sans-serif;	
+  font-size: 16px; /* Set navigation links font size */
+	padding-top: 0px; /* put padding to move navigation links */
+	left: 380px;
+	
+  display: inline; 
+  top: 10px; 
+	position: absolute;
+	
+	/*padding-left: 100px;*/
+	
+}
+
+div#content {
+	text-align: center;
+}
+
+div#bottom {
+	padding-top: 400px;
+	text-align: center;
+	font-size: 10px;
+	
+}
+
+div#accoms {
+	padding-top: 5em;
+	
+	}
+
+ul#navi li {
+	display: inline;
+	
+}
+
+ul#navi li a {
+  text-decoration: none;
+	color: black;
+	font-size: 16px;
+  background-color: #BFAD50;
+  padding: 4px;
+	border-radius: .5em;
+	
+}
+
+ul#navi li a:hover {
+  color: #EAF2E4;
+  background-color: #8C706D; /* alternate color for hovering. other choice: #9C968B */
+}
+
+
+
+/* Column Grids */
+/* See http://960.gs/ */
+@media screen and (min-width: 1010px) {
+  .g960 #page {
+    width: 940px; /*Total width works out to 960*/
+    padding: 0px 10px 0px 10px;
+    background-image: url('img/960px-10-60-10-unit.png');
+  }
+  /* See http://978.gs/ */
+  .g978 #page {
+    width: 978px; /*Total with works out to 1008*/
+    padding: 0px 15px 0px 15px;
+    background-image: url('img/978px-15-54-15-unit.png');
+  }
+}
+
+	
