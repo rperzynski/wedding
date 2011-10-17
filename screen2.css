@@ -97,9 +97,9 @@ ul#navi li {
 
 ul#navi li a {
   text-decoration: none;
-	color: black;
+	color: white;
 	font-size: 16px;
-  background-color: #BFAD50;
+  background-color:  #8C706D;
   padding: 4px;
 	border-radius: .5em;
 	
@@ -107,7 +107,7 @@ ul#navi li a {
 
 ul#navi li a:hover {
   color: #EAF2E4;
-  background-color: #8C706D; /* alternate color for hovering. other choice: #9C968B */
+  background-color:#BFAD50; /* alternate color for hovering. other choice: #9C968B */
 }
 
 
