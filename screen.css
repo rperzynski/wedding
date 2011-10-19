@@ -9,100 +9,297 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 /*Screen Styles*/
 
 html {
-  background-image: url('img/20px-baseline1.png');
-  background: #FFFEFA;
+
+}
+
+#mainpage {
+  background-image: /*url('img/20px-baseline.png'),*/ url('img/lollaptoptest.jpg');
+  background-position: /*0px 0px ,*/ 183px 15px;
+	font-family: 'Adamina', serif; 
+	}
 	
-	text-align: ;
+#eventpage {
+	background-image: /*url('img/20px-baseline.png'),*/ url('img/topmacfull.jpg');
+  background-position: /*0px 0px ,*/ 183px 15px;
+	font-family: 'Adamina', serif; 
+}
+
+#whopage {
+	background-image: /*url('img/20px-baseline.png'),*/ url('img/topcpfull.jpg');
+  background-position: /*0px 0px ,*/ 183px 15px;
+	font-family: 'Adamina', serif; 
+}
+
+#quespage {
+	background-image: /*url('img/20px-baseline.png'),*/ url('img/topchifull.jpg');
+  background-position: /*0px 0px ,*/ 183px 15px;
+	font-family: 'Adamina', serif; 
 }
 
 body {
-  font-family: Georgia, serif; /* Use Helvetica, Arial, or a sans-serif font*/
+  font-family: 'Adamina', serif; /* Use Helvetica, Arial, or a sans-serif font*/
   font-size: 16px; /* Set the base font size to 14px */
   line-height: 20px; /* Set line height for the page to 20px */
-	padding-top: 20px; /* Add some padding to the top of the page */
-  padding-left: 15px; /* Add padding along the left of the page, for the length of the page */
-	border-left: 0px solid #8A866A; /* In order to   */
-	border-top: 120px solid #58373B; /* Add brown border along the top of the page. Alternate green #7C9C46 #858C4D*/
+	 /* Add some padding to the top of the page */
+   /* Add padding along the left of the page, for the length of the page */
+	 /* In order to   */
+	
+	
+	text-align: center;
 }
 
 div#page{
-}
-
-div#top {
-	font-size: 36px; /* Set page title font size */
-	padding-right: 0px; 
-  padding-left: 220px;
-  top: 20px;
-  display: inline; 
-  color: #FFFEFA;
-	position: absolute;
-
-}
-div#top2 {
-  font-size: 28px; /* Set page title font size */
-	padding-right: 0px; 
-  /* padding-left: 125px; */
-	padding-left: 370px;
-  top: 48px;
-  display: inline; 
-  color: #FFFEFA;
-	position: absolute;
-  font-weight: ;
-}
-
-h1 {
-	font-size: 24px;
-	padding-bottom: 20px;
 	text-align: center;
+	
 }
 
+div#borders {
+border-left:  183px solid #58373B;
+border-right: 183px solid #58373B;
+border-top: 15px solid #58373B;
+border-bottom: 15px solid #58373B;
+
+} 
+
+
+
+a {
+	
+	text-decoration: none;
+	color: #8C706D;
+}
+
+
+ul#heading {
+  font-size: 36px;
+  padding: 0px;
+  text-align: left;
+  position: static;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+
+ul#heading li {
+  padding: 0px;
+}
+
+  
 div#navig {
   font-family: Georgia, Arial, sans-serif;	
   font-size: 16px; /* Set navigation links font size */
-	padding-top: 0px; /* put padding to move navigation links */
-	padding-left: 360px;
-	position: absolute;
-  display: inline; 
-  top: 85px; 
+	 /* put padding to move navigation links */
 	
-	/*padding-left: 100px;*/
-	
-}
-
-div#content {
-	text-align: center;
-}
-
-div#bottom {
-	padding-top: 400px;
-	text-align: center;
-	font-size: 10px;
-}
-
-ul#navi li {
-	display: inline;
+	padding-top: 0px;
+  padding-bottom: 0px;
+  
+	float: right;
+	border: 0px solid black;
+  width: 400px;
 	
 }
 
 ul#navi li a {
   text-decoration: none;
-	color: black;
+	color: white;
 	font-size: 16px;
-  background-color: #BFAD50;
-  padding: 4px;
-	border-radius: .5em;
+  background-color:  #8C706D;
+  padding: 1px;
+	/* border-radius: 0.5em; */
+	text-align: right;
+	top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+	
 	
 }
 
 ul#navi li a:hover {
   color: #EAF2E4;
-  background-color: #8C706D; /* alternate color for hovering. other choice: #9C968B */
+  background-color:#BFAD50; /* alternate color for hovering. other choice: #9C968B */
+}
+
+ul#navi li a:focus {
+  color: #EAF2E4;
+  background-color: #58373B; 
+}
+
+ul#navi li a:active {
+  color: #EAF2E4;
+  background-color: #58373B; 
 }
 
 
+	
 
-/* Column Grids */
-/* See http://960.gs/ */
+div#content {
+	text-align: center;
+  
+}
+
+div#bottom {
+	padding-top: 1005px;
+	text-align: center;
+	font-size: 10px;
+	
+	
+}
+
+div#accoms {
+	padding-top: 5em;
+	
+	}
+	
+
+
+ul#navi li {
+	display: inline;
+	
+}
+ ul#subnav {
+	padding-bottom: 40px;
+  text-align: left;
+	
+}
+
+
+img {
+		border:1px solid #021a40;
+		}
+		
+ul#reg li {
+	display: inline;
+	
+}
+
+ul#questions {
+  font-family: Georgia;
+	
+	font-style: italic;
+  font-size: 14px;
+	}
+	
+ol#pics li {
+	
+  display: inline; 
+	
+}
+
+div#quickinfo {
+  font-family: serif;
+	border:1px solid black;
+	width: 300px;
+	position: relative;
+	margin-left: 100px;
+	text-align: left;
+   
+}
+
+div#map {
+	float: right;
+	position: relative;
+	
+	padding-right: 10px;
+}
+
+iframe {
+	border: 1px solid black;
+}
+	
+	
+div#picbar {
+	width: 300px;
+	position: static;
+	margin-left: 100px;
+	border: 0px solid black;
+	float: left;
+	
+}
+
+div#captionbar {
+	width: 300px;
+	position: static;
+	padding-top: 0px;
+	float: static;
+	border: 1px solid black;
+	margin-left: 500px;	
+}
+
+ul#captionlist li {
+	padding-top: 0px;
+	position: static;
+	float: static;
+	}
+	
+	
+/*div#collage {
+	display: inline;
+	float: center;
+	position: float;
+	text-align: center;
+}*/
+
+@media screen and (max-width: 780px) {
+
+
+
+	div#borders { 
+	border-left: 0px solid #58373B;
+	border-right: 0px solid #58373B;
+	border-top: 20px solid #58373B;
+	border-bottom: 0px solid #58373B;
+ }
+ img {
+	width: 200px;
+	height: 200px;
+ }
+ 
+div#map {
+  display: none;
+}
+
+ iframe{
+  
+ 	max-width: 300px;
+	max-height: 300px;
+	}
+
+div#navig {
+  font-family: Georgia, Arial, sans-serif;
+  font-size: 16px; /* Set navigation links font size */
+/* put padding to move navigation links */
+
+	padding-top: 20px;
+  padding-bottom: 20px;
+  
+
+	text-align: center;
+	position: static;
+}
+
+ul#navi li a {
+  text-decoration: none;
+	color: white;
+	font-size: 16px;
+  background-color: #8C706D;
+  padding: 4px;
+	border-radius: 0.5em;
+	text-align: center;
+
+	top: 0px;
+}
+
+ul#navi li {
+	text-align: center;
+	
+	}
+
+ul#heading  li {
+  text-align: center;
+  padding-left: 0px;
+	position: relative;
+	} 
+
+
 @media screen and (min-width: 1010px) {
   .g960 #page {
     width: 940px; /*Total width works out to 960*/
@@ -116,5 +313,4 @@ ul#navi li a:hover {
     background-image: url('img/978px-15-54-15-unit.png');
   }
 }
-
 	

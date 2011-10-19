@@ -9,14 +9,51 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 /*Screen Styles*/
 
 html {
-  background-image: url('img/20px-baseline1.png');
-  
-  background: white; /* #f9ead3 */
+
+}
+
+#mainpage {
+  background-image: url('img/toplollafull.jpg');
+  background-position: 168px 20px;
+	font-family: 'Adamina', serif; 
+	background-repeat: repeat-x;
+	}
 	
+	/* 
+	To test line-height:
+	background-image: url('img/20px-baseline.png');
+  background-position: 0px 0px ,
+	
+	Normal:
+	background-image: url('img/lollaptoptest.jpg');
+  background-position: 168px 20px;
+		*/ 
+	
+	
+	
+#eventpage {
+	background-image: /*url('img/20px-baseline.png'),*/ url('img/topmacfull.jpg');
+  background-position: /*0px 0px ,*/ 168px 15px;
+	font-family: 'Adamina', serif;
+	background-repeat: repeat-x;
+}
+
+#whopage {
+	background-image: /*url('img/20px-baseline.png'),*/ url('img/topcpfull.jpg');
+  background-position: /*0px 0px ,*/ 168px 15px;
+	font-family: 'Adamina', serif; 
+	background-repeat: repeat-x;
+}
+
+#quespage {
+	background-image: /*url('img/20px-baseline.png'),*/ url('img/topchifull.jpg');
+  background-position: /*0px 0px ,*/ 168px 15px;
+	font-family: 'Adamina', serif; 
+	background-repeat: repeat-x;
 }
 
 body {
-  font-family: 'Andika', sans-serif; /* Use Helvetica, Arial, or a sans-serif font*/
+  font-family: 'Adamina', serif; /* Use Helvetica, Arial, or a sans-serif font*/
   font-size: 16px; /* Set the base font size to 14px */
   line-height: 20px; /* Set line height for the page to 20px */
 	 /* Add some padding to the top of the page */
@@ -24,56 +61,47 @@ body {
 	 /* In order to   */
 	
 	
-	text-align: center;
+	
 }
 
 div#page{
-	text-align: center;
+	
 	
 }
 
 div#borders {
-border-left:  15px solid #58373B;
-border-right: 15px solid #58373B;
-border-top: 15px solid #58373B;
+border-left:  168px solid #58373B;
+border-right: 168px solid #58373B;
+border-top: 20px solid #58373B;
 border-bottom: 20px solid #58373B;
+
 } 
 
 
 
 a {
-	
 	text-decoration: none;
 	color: #8C706D;
 }
 
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	}
 
-ul#heading {
-  font-size: 36px;
-  padding: 0px;
-  text-align: left;
-  position: static;
-  padding-bottom: 20px;
-  padding-top: 5px;
-}
-
-ul#heading li {
-  padding: px;
-}
-
-  
 div#navig {
   font-family: Georgia, Arial, sans-serif;	
   font-size: 16px; /* Set navigation links font size */
 	 /* put padding to move navigation links */
 	
-	padding-top: 5px;
+	padding-top: 20px;
   padding-bottom: 0px;
-  position: ;
+  text-align: right;
 	float: right;
 	border: 0px solid black;
-  width: 400px;
-	
+  width: 350px;
+	position: relative;
 }
 
 ul#navi li a {
@@ -81,16 +109,20 @@ ul#navi li a {
 	color: white;
 	font-size: 16px;
   background-color:  #8C706D;
-  padding: 1px;
-	border-radius:;
-	text-align: right;
-	top: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 4px;
+	/* border-radius: 0.5em; */
 	
+	top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+	
+	position: static;
+	margin-right: 0px;
+}
+ul#navi li {
+	display: inline;
 	
 }
-
 ul#navi li a:hover {
   color: #EAF2E4;
   background-color:#BFAD50; /* alternate color for hovering. other choice: #9C968B */
@@ -106,145 +138,161 @@ ul#navi li a:active {
   background-color: #58373B; 
 }
 
-
+ul#heading {
+  font-size: 48px;
+  padding: 0px;
+  text-align: left;
+  padding-right: 100px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+	border: 0px solid black;
+	width: 250px;
+	position: static;
+	height: 340px;
 	
+	}
+	ul#heading li {
+	padding:5px;
+	color: #363636
+	}
+
+
 
 div#content {
-	text-align: center;
-  
+margin-top: 0px;
+padding-left: 54px;
+padding-right: 54px;
+}
+
+div#quickinfo {
+padding-bottom: 40px;
+}
+
+div#accoms{
+padding-bottom: 40px;
+
+}
+
+ul#questions {
+	font-weight: bold;
+	
+}
+	
+div#subnav {
+	padding-bottom: 40px;
 }
 
 div#bottom {
-	padding-top: 800px;
+	padding-top: 600px;
 	text-align: center;
 	font-size: 10px;
 	
 	
 }
 
-div#accoms {
-	padding-top: 5em;
-	
-	}
-	
 
 
-ul#navi li {
-	display: inline;
-	
-}
- ul#subnav {
-	padding-bottom: 40px;
-  text-align: left;
-	
-}
 
 
-img {
-		border:1px solid #021a40;
-		}
-		
-ul#reg li {
-	display: inline;
-	
-}
+@media screen and (max-width: 900px) {
 
-ul#questions {
-  font-family: Georgia;
-	font-weight:;
-	font-style: italic;
-  font-size: 14px;
-	}
-	
-ol#pics li {
-	
-  display: inline; 
-	
-}
 
-div#quickinfo {
-  font-family: serif;
-	border:1px solid black;
-	width: 300px;
-	position: relative;
-	margin-left: 100px;
-	text-align: left;
-  float: 
-}
-
-div#map {
-	float: right;
-	position: relative;
-	
-	padding-right: 10px;
-}
-
-iframe {
-	border: 1px solid black;
-}
-	
-	
-	
-/*div#collage {
-	display: inline;
-	float: center;
-	position: float;
-	text-align: center;
-}*/
-
-@media screen and (max-width: 500px) {
 
 	div#borders { 
 	border-left: 0px solid #58373B;
 	border-right: 0px solid #58373B;
 	border-top: 20px solid #58373B;
 	border-bottom: 0px solid #58373B;
- }
- img {
-	width: 200px;
-	height: 200px;
- }
- 
-div#map {
-  display: none;
+	}
+	
+	html {
+	background: white;
+	}
+		#mainpage {
+  background: white;
+	font-family: 'Adamina', serif; 
+	}
+	
+#eventpage {
+	background: white;
+	font-family: 'Adamina', serif; 
 }
 
- iframe{
-  
- 	max-width: 300px;
-	max-height: 300px;
-	}
+#whopage {
+	background: white;
+	font-family: 'Adamina', serif; 
+}
 
+#quespage {
+	background: white;
+	font-family: 'Adamina', serif; 
+}
+	
+	ul#heading {
+  font-size: 48px;
+  padding: 0px;
+  text-align: left;
+  position: relative;
+  padding-bottom: 20px;
+  padding-top: 5px;
+	
+	
+	
+	}
+	ul#heading li {
+	padding:5px;
+	text-align: left;
+	}
+	
+	
 div#navig {
   font-family: Georgia, Arial, sans-serif;
   font-size: 16px; /* Set navigation links font size */
 /* put padding to move navigation links */
 
-padding-top: 20px;
+	padding-top: 20px;
   padding-bottom: 20px;
-  
-
-text-align: center;
+  float: left;
+	text-align: left;
+	border: 0px solid black;
+  width: 350px;
+	position: relative;
 
 }
 
 ul#navi li a {
   text-decoration: none;
-color: white;
-font-size: 16px;
+	color: white;
+	font-size: 16px;
   background-color: #8C706D;
   padding: 4px;
-border-radius: 0.5em;
+	border-radius: 0.5em;
+	text-align: left;
 
-top: 0px;
+	top: 0px;
 }
 
-ul#heading {
-  text-align: center;
-  
- 
-	} 
-
-
-
+ul#navi li {
+	text-align: left;
 	
+	}
+	
+	
+	
+	}
+
+	@media screen and (min-width: 1010px) {
+  .g960 #page {
+    width: 940px; /*Total width works out to 960*/
+    padding: 0px 10px 0px 10px;
+    background-image: url('img/960px-10-60-10-unit.png');
+  }
+  /* See http://978.gs/ */
+  .g978 #page {
+    width: 978px; /*Total with works out to 1008*/
+    padding: 0px 15px 0px 15px;
+    background-image: url('img/978px-15-54-15-unit.png');
+  }
+}
+
+
