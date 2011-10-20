@@ -282,6 +282,56 @@ ul#navi li {
 	}
 
 	@media screen and (min-width: 1010px) {
+	
+	div#borders {
+border-left:  300px solid #58373B;
+border-right: 300px solid #58373B;
+border-top: 20px solid #58373B;
+border-bottom: 20px solid #58373B;
+
+} 
+
+#mainpage {
+  background-image: url('img/toplollafull.jpg');
+  background-position: 168px 20px;
+	font-family: 'Adamina', serif; 
+	background-repeat: repeat-x;
+	}
+	
+	/* 
+	To test line-height:
+	background-image: url('img/20px-baseline.png');
+  background-position: 0px 0px ,
+	
+	Normal:
+	background-image: url('img/lollaptoptest.jpg');
+  background-position: 168px 20px;
+		*/ 
+	
+	
+	
+#eventpage {
+	background-image: /*url('img/20px-baseline.png'),*/ url('img/topmacfull.jpg');
+  background-position: /*0px 0px ,*/ 300px 15px;
+	font-family: 'Adamina', serif;
+	background-repeat: repeat-x;
+}
+
+#whopage {
+	background-image: /*url('img/20px-baseline.png'),*/ url('img/topcpfull.jpg');
+  background-position: /*0px 0px ,*/ 168px 15px;
+	font-family: 'Adamina', serif; 
+	background-repeat: repeat-x;
+}
+
+#quespage {
+	background-image: /*url('img/20px-baseline.png'),*/ url('img/topchifull.jpg');
+  background-position: /*0px 0px ,*/ 168px 15px;
+	font-family: 'Adamina', serif; 
+	background-repeat: repeat-x;
+}
+
+	
   .g960 #page {
     width: 940px; /*Total width works out to 960*/
     padding: 0px 10px 0px 10px;
