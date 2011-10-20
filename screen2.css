@@ -194,14 +194,14 @@ div#bottom {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
 
 
 
 	div#borders { 
 	border-left: 0px solid #58373B;
 	border-right: 0px solid #58373B;
-	border-top: 20px solid #58373B;
+	border-top: 40px solid #58373B;
 	border-bottom: 0px solid #58373B;
 	}
 	
@@ -232,16 +232,24 @@ div#bottom {
   font-size: 48px;
   padding: 0px;
   text-align: left;
-  position: relative;
-  padding-bottom: 20px;
+  position: static;
+  padding-bottom: 180px;
   padding-top: 5px;
+	padding-left: 0px;
+	
+	height: 0px;
+	border-bottom: 1px solid black;
+
 	
 	
 	
 	}
 	ul#heading li {
-	padding:5px;
+	padding:10px;
 	text-align: left;
+	padding-left: 0px;
+	
+	
 	}
 	
 	
@@ -251,7 +259,7 @@ div#navig {
 /* put padding to move navigation links */
 
 	padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   float: left;
 	text-align: left;
 	border: 0px solid black;
@@ -266,9 +274,9 @@ ul#navi li a {
 	font-size: 16px;
   background-color: #8C706D;
   padding: 4px;
-	border-radius: 0.5em;
+	
 	text-align: left;
-
+	
 	top: 0px;
 }
 
@@ -277,25 +285,40 @@ ul#navi li {
 	
 	}
 	
+	div#content {
+	text-align: left;
+	padding-left: 0px;
 	
+	}
 	
+
 	}
 
 	@media screen and (min-width: 1010px) {
 	
+	
+	
 	div#borders {
-border-left:  300px solid #58373B;
-border-right: 300px solid #58373B;
-border-top: 20px solid #58373B;
-border-bottom: 20px solid #58373B;
+background-image: url('img/toplollafull.jpg');
+border-left:  none;
+border-right: none;
 
+
+margin-left: 28%; /*This makes the left side stay put! */
+margin-right: 28%; /*The right side goes too far... how to make it stop at the end of the picture? */ 
 } 
 
+plop {
+
+}
+
+
 #mainpage {
-  background-image: url('img/toplollafull.jpg');
-  background-position: 168px 20px;
+  background: black; /*Place holder color for #58373B */
+  background-position: /*0px 0px ,*/ ;
 	font-family: 'Adamina', serif; 
 	background-repeat: repeat-x;
+	
 	}
 	
 	/* 
@@ -319,14 +342,14 @@ border-bottom: 20px solid #58373B;
 
 #whopage {
 	background-image: /*url('img/20px-baseline.png'),*/ url('img/topcpfull.jpg');
-  background-position: /*0px 0px ,*/ 168px 15px;
+  background-position: /*0px 0px ,*/ 300px 15px;
 	font-family: 'Adamina', serif; 
 	background-repeat: repeat-x;
 }
 
 #quespage {
 	background-image: /*url('img/20px-baseline.png'),*/ url('img/topchifull.jpg');
-  background-position: /*0px 0px ,*/ 168px 15px;
+  background-position: /*0px 0px ,*/ 300px 15px;
 	font-family: 'Adamina', serif; 
 	background-repeat: repeat-x;
 }
