@@ -8,109 +8,37 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 /*Screen Styles*/
 
-html {
 
-}
+html{
+background: #58373B;
+text-align: center;
 
-#mainpage {
-  background-image: /*url('img/20px-baseline.png'),*/ url('img/lollaptoptest.jpg');
-  background-position: /*0px 0px ,*/ 183px 15px;
-	font-family: 'Adamina', serif; 
-	}
-	
-#eventpage {
-	background-image: /*url('img/20px-baseline.png'),*/ url('img/topmacfull.jpg');
-  background-position: /*0px 0px ,*/ 183px 15px;
-	font-family: 'Adamina', serif; 
-}
-
-#whopage {
-	background-image: /*url('img/20px-baseline.png'),*/ url('img/topcpfull.jpg');
-  background-position: /*0px 0px ,*/ 183px 15px;
-	font-family: 'Adamina', serif; 
-}
-
-#quespage {
-	background-image: /*url('img/20px-baseline.png'),*/ url('img/topchifull.jpg');
-  background-position: /*0px 0px ,*/ 183px 15px;
-	font-family: 'Adamina', serif; 
 }
 
 body {
-  font-family: 'Adamina', serif; /* Use Helvetica, Arial, or a sans-serif font*/
-  font-size: 16px; /* Set the base font size to 14px */
-  line-height: 20px; /* Set line height for the page to 20px */
-	 /* Add some padding to the top of the page */
-   /* Add padding along the left of the page, for the length of the page */
-	 /* In order to   */
-	
-	
-	text-align: center;
+font-family: 'Adamina', serif; 
 }
-
-div#page{
-	text-align: center;
-	
-}
-
-div#borders {
-border-left:  183px solid #58373B;
-border-right: 183px solid #58373B;
-border-top: 15px solid #58373B;
-border-bottom: 15px solid #58373B;
-
-} 
-
-
 
 a {
-	
-	text-decoration: none;
 	color: #8C706D;
+	text-decoration: none;
+	}
+
+
+div#navig li{
+display: inline;
+font-family: Georgia, serif;
 }
 
-
-ul#heading {
-  font-size: 36px;
-  padding: 0px;
-  text-align: left;
-  position: static;
-  padding-bottom: 20px;
-  padding-top: 0px;
-}
-
-ul#heading li {
-  padding: 0px;
-}
-
-  
-div#navig {
-  font-family: Georgia, Arial, sans-serif;	
-  font-size: 16px; /* Set navigation links font size */
-	 /* put padding to move navigation links */
-	
-	padding-top: 0px;
-  padding-bottom: 0px;
-  
-	float: right;
-	border: 0px solid black;
-  width: 400px;
-	
-}
-
-ul#navi li a {
-  text-decoration: none;
+ul#navi li a{
+	display: inline;
+	text-decoration: none;
 	color: white;
-	font-size: 16px;
-  background-color:  #8C706D;
-  padding: 1px;
-	/* border-radius: 0.5em; */
-	text-align: right;
-	top: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-	
-	
+	background-color:  #8C706D;
+	padding-left: 5px;
+  padding-right: 5px;
+	padding-top:2px;
+	padding-bottom: 2px;
 }
 
 ul#navi li a:hover {
@@ -118,189 +46,163 @@ ul#navi li a:hover {
   background-color:#BFAD50; /* alternate color for hovering. other choice: #9C968B */
 }
 
-ul#navi li a:focus {
-  color: #EAF2E4;
-  background-color: #58373B; 
-}
-
-ul#navi li a:active {
-  color: #EAF2E4;
-  background-color: #58373B; 
+div#heading {
+text-align: center;
 }
 
 
-	
+
+h1#head {  
+top: 0px;
+font-family: 'Adamina', serif; 
+font-size: 24px;
+color: white;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+h2 {
+text-align: center;
+font-weight: bold;
+font-size: 24px;
+}
 
 div#content {
-	text-align: center;
-  
+text-align: center;
+background: white;
+height: 1000px;
+margin-left: auto;
+margin-right: auto;
+position: float;
 }
 
-div#bottom {
-	padding-top: 1005px;
-	text-align: center;
-	font-size: 10px;
-	
-	
+img#largeimg {
+max-width: 99%;
+top: 20px;
+}	
+
+div#quickinfo {
+padding-bottom: 40px;
+text-align: left;
 }
 
-div#accoms {
-	padding-top: 5em;
-	
-	}
-	
+div#accoms{
+padding-bottom: 40px;
 
-
-ul#navi li {
-	display: inline;
-	
-}
- ul#subnav {
-	padding-bottom: 40px;
-  text-align: left;
-	
-}
-
-
-img {
-		border:1px solid #021a40;
-		}
-		
-ul#reg li {
-	display: inline;
-	
 }
 
 ul#questions {
-  font-family: Georgia;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-left: 30px;
 	
-	font-style: italic;
-  font-size: 14px;
+}
+ul#answers {
+	padding-left: 50px;
+	padding-bottom: 20px;
+	
 	}
 	
-ol#pics li {
-	
-  display: inline; 
-	
+div#subnav {
+	padding-bottom: 40px;
 }
 
-div#quickinfo {
-  font-family: serif;
-	border:1px solid black;
-	width: 300px;
-	position: relative;
-	margin-left: 100px;
-	text-align: left;
-   
-}
-
-div#map {
-	float: right;
-	position: relative;
-	
-	padding-right: 10px;
-}
-
-iframe {
-	border: 1px solid black;
-}
-	
-	
-div#picbar {
-	width: 300px;
-	position: static;
-	margin-left: 100px;
-	border: 0px solid black;
-	float: left;
-	
-}
-
-div#captionbar {
-	width: 300px;
-	position: static;
-	padding-top: 0px;
-	float: static;
-	border: 1px solid black;
-	margin-left: 500px;	
-}
-
-ul#captionlist li {
-	padding-top: 0px;
-	position: static;
-	float: static;
-	}
-	
-	
-/*div#collage {
-	display: inline;
-	float: center;
-	position: float;
-	text-align: center;
-}*/
-
-@media screen and (max-width: 780px) {
+/*just in case i need this again
+img#smallimg {
+display: block;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}	
+*/
 
 
 
-	div#borders { 
-	border-left: 0px solid #58373B;
-	border-right: 0px solid #58373B;
-	border-top: 20px solid #58373B;
-	border-bottom: 0px solid #58373B;
- }
- img {
-	width: 200px;
-	height: 200px;
- }
- 
-div#map {
-  display: none;
-}
+/* -----------------------------------------------------------------------------------------------------------------------------------------*/
 
- iframe{
-  
- 	max-width: 300px;
-	max-height: 300px;
+
+
+@media screen and (min-width: 768px) {
+
+html {
+border-top: 20px solid #58373B;
+	background: #58373B
 	}
 
-div#navig {
-  font-family: Georgia, Arial, sans-serif;
-  font-size: 16px; /* Set navigation links font size */
-/* put padding to move navigation links */
-
-	padding-top: 20px;
-  padding-bottom: 20px;
-  
-
-	text-align: center;
-	position: static;
+div#large li{
+	display: block;
+	
+	}
+	
+div#heading {
+width: 672px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+display: block;
 }
 
-ul#navi li a {
-  text-decoration: none;
+h1#head {  
+position: absolute;
+top: 0px;
+font-family: 'Adamina', serif; 
+font-size: 48px;
+text-align: left;
+color: black;
+}
+
+/* Jjust in case I need this again	
+img#smallimg {
+display: none;
+}	
+*/
+
+img#largeimg {
+display: block;
+max-width:100%;
+}	
+	
+div#content {
+text-align: center;
+background: white;
+width: 672px;
+height: 1000px;
+margin-left: auto;
+margin-right: auto;
+position: float;
+}
+
+div#small {
+display: none;
+}
+
+div#large {
+display: block;
+position: ;
+}
+ div#navig { 
+position: absolute;
+top: 10px;
+left: 60%;
+font-family: Georgia, serif; 
+border: 0px solid black;
+
+}
+
+ul#navi {
+	text-align: right;
+}
+
+div#footer {
 	color: white;
-	font-size: 16px;
-  background-color: #8C706D;
-  padding: 4px;
-	border-radius: 0.5em;
-	text-align: center;
-
-	top: 0px;
-}
-
-ul#navi li {
-	text-align: center;
-	
+	font-size: 10px;
 	}
-
-ul#heading  li {
-  text-align: center;
-  padding-left: 0px;
-	position: relative;
-	} 
-
-
-@media screen and (min-width: 1010px) {
+	
+	
+	@media screen and (min-width: 1010px) {
+	
+	
   .g960 #page {
     width: 940px; /*Total width works out to 960*/
     padding: 0px 10px 0px 10px;
@@ -313,4 +215,3 @@ ul#heading  li {
     background-image: url('img/978px-15-54-15-unit.png');
   }
 }
-	

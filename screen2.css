@@ -8,192 +8,79 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 /*Screen Styles*/
 
-html {
+
+html{
 background: #58373B;
-}
-
-#mainpage {
-	background-image: url('img/toplollafull.jpg');
-	font-family: 'Adamina', serif; 
-	background-position: 0px 20px;
-	background-repeat: no-repeat;
-	margin-left: 10%;
-	margin-right: 10%;
-	}
-	
-div#borders {
-
-}
-
-div#small{
-display: none;
-
-}
-
-/*border-left:  168px solid #58373B;
-border-right: 168px solid #58373B;
-border-top: 20px solid ;
-border-bottom: 20px solid #58373B;*/
-
-
-	
-	/* 
-	To test line-height:
-	background-image: url('img/20px-baseline.png');
-  background-position: 0px 0px ,
-	
-	Normal:
-	background-image: url('img/lollaptoptest.jpg');
-  background-position: 168px 20px;
-		*/ 
-	
-	
-	
-#eventpage {
-	background-image: /*url('img/20px-baseline.png'),*/ url('img/topmacfull.jpg');
-  font-family: 'Adamina', serif; 
-	background-position: 0px 20px;
-	background-repeat: no-repeat;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-#whopage {
-	background-image: /*url('img/20px-baseline.png'),*/ url('img/topcpfull.jpg');
-  font-family: 'Adamina', serif; 
-	background-position: 0px 20px;
-	background-repeat: no-repeat;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-#quespage {
-	background-image: /*url('img/20px-baseline.png'),*/ url('img/topchifull.jpg');
-  font-family: 'Adamina', serif; 
-	background-position: 0px 20px;
-	background-repeat: no-repeat;
-	margin-left: 10%;
-	margin-right: 10%;
+text-align: center;
+border-top: 0px solid #58373B;
 }
 
 body {
-  font-family: 'Adamina', serif; /* Use Helvetica, Arial, or a sans-serif font*/
-  font-size: 16px; /* Set the base font size to 14px */
-  line-height: 20px; /* Set line height for the page to 20px */
-	 /* Add some padding to the top of the page */
-   /* Add padding along the left of the page, for the length of the page */
-	 /* In order to   */
-	
-	
-	
+font-family: 'Adamina', serif; 
 }
-
-div#page{
-	
-	
-}
-
-
-
-
 
 a {
-	text-decoration: none;
 	color: #8C706D;
-}
-
-h1 {
-	font-size: 24px;
-	font-weight: bold;
-	padding-bottom: 20px;
+	text-decoration: none;
 	}
 
-div#navig {
-font-family: Georgia, Arial, sans-serif;	
-  font-size: 16px;
-  padding-left: 400px; /*With this, the nav links stay put. 
-  but a new media screen has to be made for when the window is skinnier than the picture,
-  so that they move down */
-padding-right: 0px;
-  margin-top: 0px;
-  border: 0px solid black;
-  padding-top: 20px;
-  
-  }
-  /*
-	 Old nav settings, just in case:
-	
-	padding-top: 20px;
-  padding-bottom: 0px;
-  text-align: right;
-	float: right;
-	
-	position: relative;
-	padding-left: 54px;
-padding-right: 54px;
-}*/
 
-ul#navi li a {
-  text-decoration: none;
-	color: white;
-	font-size: 16px;
-  background-color:  #8C706D;
-  padding: 4px;
-	/* border-radius: 0.5em; */
-	
-	top: 0px;
-  padding-left: 5px;
-  padding-right: 5px;
-	
-	position: static;
-	margin-right: 0px;
+div#navig li{
+display: inline;
+font-family: Georgia, serif;
 }
-ul#navi li {
+
+ul#navi li a{
 	display: inline;
-	
+	text-decoration: none;
+	color: white;
+	background-color:  #8C706D;
+	padding-left: 5px;
+  padding-right: 5px;
+	padding-top:2px;
+	padding-bottom: 2px;
 }
+
 ul#navi li a:hover {
   color: #EAF2E4;
   background-color:#BFAD50; /* alternate color for hovering. other choice: #9C968B */
 }
 
-ul#navi li a:focus {
-  color: #EAF2E4;
-  background-color: #58373B; 
+
+
+
+
+
+div#heading {
+text-align: center;
 }
 
-ul#navi li a:active {
-  color: #EAF2E4;
-  background-color: #58373B; 
+
+
+h2#head {  
+top: 0px;
+font-family: 'Adamina', serif; 
+font-size: 24px;
+color: white;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
 }
-
-ul#heading {
-  font-size: 48px;
-  padding: 0px;
-  text-align: left;
-  padding-right: 100px;
-  
-  padding-top: 0px;
-	border: 0px solid black;
-	width: 250px;
-	margin-bottom: 300px;
-	
-	
-	}
-	ul#heading li {
-	
-	color: #363636;
-	padding-bottom: 20px;
-	}
-
-
 
 div#content {
-margin-top: 0px;
-padding-left: 20px;
-padding-right: 54px;
-width: 652px;
+text-align: center;
+background: white;
+height: 1000px;
+margin-left: auto;
+margin-right: auto;
+position: float;
 }
+
+img#largeimg {
+max-width: 99%;
+top: 20px;
+}	
 
 div#quickinfo {
 padding-bottom: 40px;
@@ -219,74 +106,96 @@ div#subnav {
 	padding-bottom: 40px;
 }
 
-div#bottom {
-	padding-top: 600px;
-	text-align: center;
-	font-size: 10px;
-	
-	
-}
+/*just in case i need this again
+img#smallimg {
+display: block;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}	
+*/
 
 
-@media screen and (max-width: 837px) {
 
-html{
-background: white;
-}
+/* -----------------------------------------------------------------------------------------------------------------------------------------*/
 
-#mainpage , #eventpage , #whopage , #quespage{
-	background: white;
-	font-family: 'Adamina', serif; 
-	border-top: 20px solid #58373B;
-	margin-left: 0px;
-	margin-right: 0px;
+
+
+@media screen and (min-width: 768px) {
+
+html {
+border-top: 20px solid #58373B;
+	background: #58373B
 	}
 
-	div#navig {
-font-family: Georgia, Arial, sans-serif;	
-  font-size: 16px;
-  padding-left: 0px; /*With this, the nav links stay put. 
-  but a new media screen has to be made for when the window is skinnier than the picture,
-  so that they move down */
-padding-right: 0px;
-padding-bottom: 20px;
-  margin-top: 0px;
-  border: 0px solid black;
-  padding-top: 0px ;
-  
-  text-align: left;
-	}
-div#content {
-margin-top: 0px;
-padding-left: 0px;
-padding-right: 0px;
-position: static;
-width: 250px;
-border: 0px solid black;
-}
-	
-	ul#heading {
-  font-size: 48px;
-  padding: 0px;
-  text-align: center;
-  padding-right: 0px;
-  margin-bottom: 0px;
-  padding-top: 0px;
-	padding-bottom: 80px;
-	border: 0px solid black;
-	width: 250px;
-	position: static;
-	height: 0px;
-	border: 0px solid black;
-	}
-	
-	div#small {
+div#large li{
 	display: block;
 	
 	}
 	
-	}
+div#heading {
+width: 672px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+display: block;
+}
+
+h2#head {  
+position: absolute;
+top: 0px;
+font-family: 'Adamina', serif; 
+font-size: 48px;
+text-align: left;
+color: black;
+}
+
+/* Jjust in case I need this again	
+img#smallimg {
+display: none;
+}	
+*/
+
+img#largeimg {
+display: block;
+max-width:100%;
+}	
 	
+div#content {
+text-align: center;
+background: white;
+width: 672px;
+height: 1000px;
+margin-left: auto;
+margin-right: auto;
+position: float;
+}
+
+div#small {
+display: none;
+}
+
+div#large {
+display: block;
+position: ;
+}
+ div#navig { 
+position: absolute;
+top: 10px;
+left: 60%;
+font-family: Georgia, serif; 
+border: 0px solid black;
+
+}
+
+ul#navi {
+	text-align: right;
+}
+
+div#footer {
+	color: white;
+	font-size: 10px;
+	}
 	
 	
 	@media screen and (min-width: 1010px) {
