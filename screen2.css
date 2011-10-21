@@ -9,15 +9,33 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 /*Screen Styles*/
 
 html {
-
+background: #58373B;
 }
 
 #mainpage {
-  background-image: url('img/toplollafull.jpg');
-  background-position: 168px 20px;
+	background-image: url('img/toplollafull.jpg');
 	font-family: 'Adamina', serif; 
-	background-repeat: repeat-x;
+	background-position: 0px 20px;
+	background-repeat: no-repeat;
+	margin-left: 10%;
+	margin-right: 10%;
 	}
+	
+div#borders {
+
+}
+
+div#small{
+display: none;
+
+}
+
+/*border-left:  168px solid #58373B;
+border-right: 168px solid #58373B;
+border-top: 20px solid ;
+border-bottom: 20px solid #58373B;*/
+
+
 	
 	/* 
 	To test line-height:
@@ -33,23 +51,29 @@ html {
 	
 #eventpage {
 	background-image: /*url('img/20px-baseline.png'),*/ url('img/topmacfull.jpg');
-  background-position: /*0px 0px ,*/ 168px 15px;
-	font-family: 'Adamina', serif;
-	background-repeat: repeat-x;
+  font-family: 'Adamina', serif; 
+	background-position: 0px 20px;
+	background-repeat: no-repeat;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #whopage {
 	background-image: /*url('img/20px-baseline.png'),*/ url('img/topcpfull.jpg');
-  background-position: /*0px 0px ,*/ 168px 15px;
-	font-family: 'Adamina', serif; 
-	background-repeat: repeat-x;
+  font-family: 'Adamina', serif; 
+	background-position: 0px 20px;
+	background-repeat: no-repeat;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #quespage {
 	background-image: /*url('img/20px-baseline.png'),*/ url('img/topchifull.jpg');
-  background-position: /*0px 0px ,*/ 168px 15px;
-	font-family: 'Adamina', serif; 
-	background-repeat: repeat-x;
+  font-family: 'Adamina', serif; 
+	background-position: 0px 20px;
+	background-repeat: no-repeat;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 body {
@@ -69,13 +93,7 @@ div#page{
 	
 }
 
-div#borders {
-border-left:  168px solid #58373B;
-border-right: 168px solid #58373B;
-border-top: 20px solid #58373B;
-border-bottom: 20px solid #58373B;
 
-} 
 
 
 
@@ -91,18 +109,29 @@ h1 {
 	}
 
 div#navig {
-  font-family: Georgia, Arial, sans-serif;	
-  font-size: 16px; /* Set navigation links font size */
-	 /* put padding to move navigation links */
+font-family: Georgia, Arial, sans-serif;	
+  font-size: 16px;
+  padding-left: 400px; /*With this, the nav links stay put. 
+  but a new media screen has to be made for when the window is skinnier than the picture,
+  so that they move down */
+padding-right: 0px;
+  margin-top: 0px;
+  border: 0px solid black;
+  padding-top: 20px;
+  
+  }
+  /*
+	 Old nav settings, just in case:
 	
 	padding-top: 20px;
   padding-bottom: 0px;
   text-align: right;
 	float: right;
-	border: 0px solid black;
-  width: 350px;
+	
 	position: relative;
-}
+	padding-left: 54px;
+padding-right: 54px;
+}*/
 
 ul#navi li a {
   text-decoration: none;
@@ -143,25 +172,27 @@ ul#heading {
   padding: 0px;
   text-align: left;
   padding-right: 100px;
-  margin-bottom: 0px;
-  padding-top: 20px;
+  
+  padding-top: 0px;
 	border: 0px solid black;
 	width: 250px;
-	position: static;
-	height: 340px;
+	margin-bottom: 300px;
+	
 	
 	}
 	ul#heading li {
-	padding:5px;
-	color: #363636
+	
+	color: #363636;
+	padding-bottom: 20px;
 	}
 
 
 
 div#content {
 margin-top: 0px;
-padding-left: 54px;
+padding-left: 20px;
 padding-right: 54px;
+width: 652px;
 }
 
 div#quickinfo {
@@ -175,8 +206,14 @@ padding-bottom: 40px;
 
 ul#questions {
 	font-weight: bold;
+	padding-bottom: 5px;
 	
 }
+ul#answers {
+	padding-left: 30px;
+	padding-bottom: 20px;
+	
+	}
 	
 div#subnav {
 	padding-bottom: 40px;
@@ -191,169 +228,69 @@ div#bottom {
 }
 
 
+@media screen and (max-width: 837px) {
 
-
-
-@media screen and (max-width: 768px) {
-
-
-
-	div#borders { 
-	border-left: 0px solid #58373B;
-	border-right: 0px solid #58373B;
-	border-top: 40px solid #58373B;
-	border-bottom: 0px solid #58373B;
-	}
-	
-	html {
-	background: white;
-	}
-		#mainpage {
-  background: white;
-	font-family: 'Adamina', serif; 
-	}
-	
-#eventpage {
-	background: white;
-	font-family: 'Adamina', serif; 
+html{
+background: white;
 }
 
-#whopage {
+#mainpage , #eventpage , #whopage , #quespage{
 	background: white;
 	font-family: 'Adamina', serif; 
-}
+	border-top: 20px solid #58373B;
+	margin-left: 0px;
+	margin-right: 0px;
+	}
 
-#quespage {
-	background: white;
-	font-family: 'Adamina', serif; 
+	div#navig {
+font-family: Georgia, Arial, sans-serif;	
+  font-size: 16px;
+  padding-left: 0px; /*With this, the nav links stay put. 
+  but a new media screen has to be made for when the window is skinnier than the picture,
+  so that they move down */
+padding-right: 0px;
+padding-bottom: 20px;
+  margin-top: 0px;
+  border: 0px solid black;
+  padding-top: 0px ;
+  
+  text-align: left;
+	}
+div#content {
+margin-top: 0px;
+padding-left: 0px;
+padding-right: 0px;
+position: static;
+width: 250px;
+border: 0px solid black;
 }
 	
 	ul#heading {
   font-size: 48px;
   padding: 0px;
-  text-align: left;
-  position: static;
-  padding-bottom: 180px;
-  padding-top: 5px;
-	padding-left: 0px;
-	
-	height: 0px;
-	border-bottom: 1px solid black;
-
-	
-	
-	
-	}
-	ul#heading li {
-	padding:10px;
-	text-align: left;
-	padding-left: 0px;
-	
-	
-	}
-	
-	
-div#navig {
-  font-family: Georgia, Arial, sans-serif;
-  font-size: 16px; /* Set navigation links font size */
-/* put padding to move navigation links */
-
-	padding-top: 20px;
-  padding-bottom: 40px;
-  float: left;
-	text-align: left;
+  text-align: center;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+	padding-bottom: 80px;
 	border: 0px solid black;
-  width: 350px;
-	position: relative;
-
-}
-
-ul#navi li a {
-  text-decoration: none;
-	color: white;
-	font-size: 16px;
-  background-color: #8C706D;
-  padding: 4px;
+	width: 250px;
+	position: static;
+	height: 0px;
+	border: 0px solid black;
+	}
 	
-	text-align: left;
-	
-	top: 0px;
-}
-
-ul#navi li {
-	text-align: left;
+	div#small {
+	display: block;
 	
 	}
 	
-	div#content {
-	text-align: left;
-	padding-left: 0px;
-	
 	}
 	
-
-	}
-
+	
+	
 	@media screen and (min-width: 1010px) {
 	
-	
-	
-	div#borders {
-background-image: url('img/toplollafull.jpg');
-border-left:  none;
-border-right: none;
-
-
-margin-left: 28%; /*This makes the left side stay put! */
-margin-right: 28%; /*The right side goes too far... how to make it stop at the end of the picture? */ 
-} 
-
-plop {
-
-}
-
-
-#mainpage {
-  background: black; /*Place holder color for #58373B */
-  background-position: /*0px 0px ,*/ ;
-	font-family: 'Adamina', serif; 
-	background-repeat: repeat-x;
-	
-	}
-	
-	/* 
-	To test line-height:
-	background-image: url('img/20px-baseline.png');
-  background-position: 0px 0px ,
-	
-	Normal:
-	background-image: url('img/lollaptoptest.jpg');
-  background-position: 168px 20px;
-		*/ 
-	
-	
-	
-#eventpage {
-	background-image: /*url('img/20px-baseline.png'),*/ url('img/topmacfull.jpg');
-  background-position: /*0px 0px ,*/ 300px 15px;
-	font-family: 'Adamina', serif;
-	background-repeat: repeat-x;
-}
-
-#whopage {
-	background-image: /*url('img/20px-baseline.png'),*/ url('img/topcpfull.jpg');
-  background-position: /*0px 0px ,*/ 300px 15px;
-	font-family: 'Adamina', serif; 
-	background-repeat: repeat-x;
-}
-
-#quespage {
-	background-image: /*url('img/20px-baseline.png'),*/ url('img/topchifull.jpg');
-  background-position: /*0px 0px ,*/ 300px 15px;
-	font-family: 'Adamina', serif; 
-	background-repeat: repeat-x;
-}
-
 	
   .g960 #page {
     width: 940px; /*Total width works out to 960*/
@@ -367,5 +304,3 @@ plop {
     background-image: url('img/978px-15-54-15-unit.png');
   }
 }
-
-
