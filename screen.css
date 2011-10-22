@@ -10,13 +10,18 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 
 html{
-background: #58373B;
-text-align: center;
+/*background-image: url('img/20px-baseline.png');*/
+
 
 }
 
 body {
+background: #58373B;
+text-align: center;
 font-family: 'Adamina', serif; 
+padding-top: 20px;
+font-size: 16px; /* Set the base font size to 14px */
+line-height: 20px; /* Set line height for the page to 20px */
 }
 
 a {
@@ -24,10 +29,14 @@ a {
 	text-decoration: none;
 	}
 
+	div#navig{
+	padding-bottom: 20px;
+	}
 
 div#navig li{
 display: inline;
 font-family: Georgia, serif;
+font-size: 18px;
 }
 
 ul#navi li a{
@@ -37,8 +46,9 @@ ul#navi li a{
 	background-color:  #8C706D;
 	padding-left: 5px;
   padding-right: 5px;
-	padding-top:2px;
-	padding-bottom: 2px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-radius: 0em;
 }
 
 ul#navi li a:hover {
@@ -48,9 +58,15 @@ ul#navi li a:hover {
 
 div#heading {
 text-align: center;
+border-bottom: 20px solid white;
+
 }
 
-
+ul#title li {
+	display: inline;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	}
 
 h1#head {  
 top: 0px;
@@ -68,18 +84,25 @@ font-weight: bold;
 font-size: 24px;
 }
 
-div#content {
+div#bottom {
 text-align: center;
 background: white;
 height: 1000px;
 margin-left: auto;
 margin-right: auto;
 position: float;
+
+}
+
+div#content {
+padding-left: 30px;
+padding-right: 30px;
+
 }
 
 img#largeimg {
 max-width: 99%;
-top: 20px;
+
 }	
 
 div#quickinfo {
@@ -125,10 +148,7 @@ margin-right: auto;
 
 @media screen and (min-width: 768px) {
 
-html {
-border-top: 20px solid #58373B;
-	background: #58373B
-	}
+
 
 div#large li{
 	display: block;
@@ -149,7 +169,7 @@ top: 0px;
 font-family: 'Adamina', serif; 
 font-size: 48px;
 text-align: left;
-color: black;
+color: #292428;
 }
 
 /* Jjust in case I need this again	
@@ -163,7 +183,7 @@ display: block;
 max-width:100%;
 }	
 	
-div#content {
+div#bottom {
 text-align: center;
 background: white;
 width: 672px;
@@ -173,9 +193,22 @@ margin-right: auto;
 position: float;
 }
 
-div#small {
-display: none;
+ul#title li {
+	display: block;
+	}
+	
+	div#navig li{
+
+font-size: 16px;
 }
+
+ul#navi li a {
+	padding-left: 5px;
+  padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 0em;
+	}
 
 div#large {
 display: block;
