@@ -12,6 +12,9 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 html{
 /*background-image: url('img/20px-baseline.png');*/
 
+/*width: 978px; /*Total with works out to 1008
+    padding: 0px 15px 0px 15px;
+    background-image: url('img/978px-15-54-15-unit.png'); */
 
 }
 
@@ -64,8 +67,7 @@ border-bottom: 20px solid white;
 
 ul#title li {
 	display: inline;
-	padding-bottom: 10px;
-	margin-top: 20px;
+
 	}
 
 h1#head {  
@@ -76,18 +78,37 @@ color: white;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
+
 }
 
 h2 {
 text-align: center;
 font-weight: bold;
 font-size: 24px;
+padding-bottom: 20px;
+}
+
+h3 {
+font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 16px;
+	}
+	
+h3#questions {
+padding-left: 30px;
+padding-bottom: 10px;
+}
+
+h3 a {
+text-decoration: none;
+color: black;
 }
 
 div#bottom {
 text-align: center;
 background: white;
-height: 1000px;
+height: 5000px;
 margin-left: auto;
 margin-right: auto;
 position: float;
@@ -95,8 +116,8 @@ position: float;
 }
 
 div#content {
-padding-left: 30px;
-padding-right: 30px;
+padding-left: 10px;
+padding-right: 10px;
 
 }
 
@@ -105,6 +126,10 @@ max-width: 99%;
 
 }	
 
+img {
+max-width: 99%;
+}
+
 div#quickinfo {
 padding-bottom: 40px;
 text-align: left;
@@ -112,18 +137,23 @@ text-align: left;
 
 div#accoms{
 padding-bottom: 40px;
-
+text-align: left;
+padding-left: 30px;
 }
 
-ul#questions {
-	font-weight: bold;
-	padding-bottom: 5px;
-	padding-left: 30px;
-	
+
+
+div#map {
+display: none;
 }
+
+
+
+
 ul#answers {
 	padding-left: 50px;
 	padding-bottom: 20px;
+	padding-right: 50px;
 	
 	}
 	
@@ -131,15 +161,50 @@ div#subnav {
 	padding-bottom: 40px;
 }
 
-/*just in case i need this again
-img#smallimg {
-display: block;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
+div#captionright {
+	
+	background: #E8D1D4;
+	width: 170px;
+	height: 178px;
+	float: right;
+	border: 1px solid #A2ABA5;
+	margin-left: 3px;
+	font-size: 12px;
+	max-width: 99%;
+	}
+	
+	div#captionleft {
+	background: #E8D1D4;
+	width: 170px;
+	height: 178px;
+	float: left;
+	border: 1px solid #A2ABA5;
+	max-width: 99%;
+	font-size: 12px;
+	
+	}
+	
+	
+ul#piccaps {
+display: inline;
+width: 99%;
 }	
-*/
 
+div#story {
+	width: 364px;
+	text-align: center;
+	margin-left: auto;
+margin-right: auto;
+	}
+
+div#party {
+	width: 355px;
+	text-align: center;
+	margin-left: auto;
+margin-right: auto;
+
+
+	}
 
 
 /* -----------------------------------------------------------------------------------------------------------------------------------------*/
@@ -161,15 +226,17 @@ margin-left: auto;
 margin-right: auto;
 position: relative;
 display: block;
+
 }
 
 h1#head {  
 position: absolute;
-top: 0px;
+top: 20px;
 font-family: 'Adamina', serif; 
 font-size: 48px;
 text-align: left;
 color: #292428;
+
 }
 
 /* Jjust in case I need this again	
@@ -182,12 +249,16 @@ img#largeimg {
 display: block;
 max-width:100%;
 }	
+
+img {
+max-width: 100%;
+}
 	
 div#bottom {
 text-align: center;
 background: white;
 width: 672px;
-height: 1000px;
+height: 5000px;
 margin-left: auto;
 margin-right: auto;
 position: float;
@@ -195,6 +266,8 @@ position: float;
 
 ul#title li {
 	display: block;
+	padding-bottom: 20px;
+	
 	}
 	
 	div#navig li{
@@ -220,12 +293,46 @@ top: 10px;
 left: 60%;
 font-family: Georgia, serif; 
 border: 0px solid black;
-
 }
 
 ul#navi {
 	text-align: right;
 }
+
+div#map {
+display: none;
+width: 150px;
+height: 150px;
+border: 1px solid black;
+position: absolute;
+left: 68%;
+top: 580px;
+}
+
+div#story {
+	width: 364px;
+	text-align: center;
+	margin-left: auto;
+margin-right: auto;
+	}
+
+div#party {
+	width: 364px;
+	text-align: center;
+	margin-left: auto;
+margin-right: auto;
+
+
+	}
+
+		
+	div#captionleft, div#captionright {
+	
+	width: 178px;
+	}
+	
+
+	
 
 div#footer {
 	color: white;
