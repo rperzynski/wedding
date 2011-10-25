@@ -12,7 +12,7 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 html{
 /*background-image: url('img/20px-baseline.png');*/
 
-/*width: 978px; /*Total with works out to 1008
+/*width: 978px; Total with works out to 1008
     padding: 0px 15px 0px 15px;
     background-image: url('img/978px-15-54-15-unit.png'); */
 
@@ -25,6 +25,8 @@ font-family: 'Adamina', serif;
 padding-top: 20px;
 font-size: 16px; /* Set the base font size to 14px */
 line-height: 20px; /* Set line height for the page to 20px */
+
+
 }
 
 a {
@@ -227,6 +229,8 @@ margin-right: auto;
 position: relative;
 display: block;
 
+
+
 }
 
 h1#head {  
@@ -262,6 +266,7 @@ height: 5000px;
 margin-left: auto;
 margin-right: auto;
 position: float;
+
 }
 
 ul#title li {
