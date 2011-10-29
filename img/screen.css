@@ -1,0 +1,417 @@
+/* Yahoo Reset Styles
+Copyright (c) 2011, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.9.0
+*/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+
+/*Screen Styles*/
+
+
+html{
+/*background-image: url('img/20px-baseline.png');*/
+
+/*background-image: url('img/978px-15-54-15-unit.png');
+width: 978px; Total with works out to 1008
+    padding: 0px 15px 0px 15px;
+     */
+
+}
+
+body {
+/*background-image: url('img/20px-baseline.png');*/
+background: #58373B;
+text-align: center;
+font-family: 'Adamina', serif; 
+padding-top: 20px;
+font-size: 16px; /* Set the base font size to 14px */
+line-height: 20px; /* Set line height for the page to 20px */
+
+
+}
+
+a {
+	color: #8C706D;
+	text-decoration: none;
+	}
+
+	div#navig{
+	padding-bottom: 20px;
+	}
+
+div#navig li{
+display: inline;
+font-family: Georgia, serif;
+font-size: 18px;
+}
+
+ul#navi li a{
+	display: inline;
+	text-decoration: none;
+	color: white;
+	background-color:  #8C706D;
+	padding-left: 5px;
+  padding-right: 5px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-radius: 0em;
+}
+
+ul#navi li a:hover {
+  color: #EAF2E4;
+  background-color:#BFAD50; /* alternate color for hovering. other choice: #9C968B */
+}
+
+div#heading {
+text-align: center;
+border-bottom: 20px solid white;
+
+}
+
+ul#title li {
+	display: inline;
+
+	}
+
+h1#head {  
+top: 0px;
+font-family: 'Adamina', serif; 
+font-size: 24px;
+color: white;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+h2 {
+text-align: center;
+font-weight: bold;
+font-size: 24px;
+padding-bottom: 20px;
+}
+
+h3 {
+font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 16px;
+	}
+	
+h3#questions {
+padding-left: 30px;
+padding-bottom: 10px;
+}
+
+h3 a {
+text-decoration: none;
+color: black;
+
+}
+
+div#bottom {
+text-align: center;
+
+background: white;
+height: 5000px;
+margin-left: auto;
+margin-right: auto;
+position: float;
+
+}
+
+div#content {
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+img#largeimg {
+max-width: 99%;
+
+}	
+
+img {
+max-width: 99%;
+}
+
+div#quickinfo {
+padding-bottom: 40px;
+text-align: left;
+}
+
+div#accoms{
+padding-bottom: 40px;
+text-align: left;
+padding-left: 30px;
+}
+
+
+
+div#map {
+display: none;
+}
+
+
+
+
+ul#answers {
+	padding-left: 50px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	
+	}
+	
+div#subnav {
+	padding-bottom: 40px;
+}
+
+div#captionright {
+	
+	background: #E8D1D4;
+	width: 170px;
+	height: 178px;
+	float: right;
+	border: 1px solid #A2ABA5;
+	margin-left: 3px;
+	font-size: 12px;
+	max-width: 99%;
+	}
+	
+	div#captionleft {
+	background: #E8D1D4;
+	width: 170px;
+	height: 178px;
+	float: left;
+	border: 1px solid #A2ABA5;
+	max-width: 99%;
+	font-size: 12px;
+	
+	}
+	
+	
+ul#piccaps {
+display: inline;
+width: 99%;
+}	
+
+div#photos {
+	width: 364px;
+	text-align: center;
+	margin-left: auto;
+margin-right: auto;
+	}
+
+div#party {
+	width: 355px;
+	text-align: center;
+	margin-left: auto;
+margin-right: auto;
+
+
+	}
+
+	div#footer {
+	color: white;
+
+	}
+	
+	
+/* -----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+@media screen and (min-width: 978px) {
+
+
+
+div#large li{
+	display: block;
+	
+	}
+	
+div#heading {
+width: 978px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+display: block;
+
+
+
+}
+
+h1#head {  
+position: absolute;
+top: 20px;
+font-family: 'Adamina', serif; 
+font-size: 48px;
+text-align: left;
+color: #292428;
+
+}
+
+/* Jjust in case I need this again	
+img#smallimg {
+display: none;
+}	
+*/
+
+img#largeimg {
+display: block;
+max-width:100%;
+}	
+
+img {
+max-width: 100%;
+}
+	
+div#bottom {
+text-align: center;
+width: 978px;
+height: 5000px;
+margin-left: auto;
+margin-right: auto;
+position: float;
+/*background-image: url('img/978px-15-54-15-unit.png');
+opacity:0.4;
+filter:alpha(opacity=40);*/
+}
+
+ul#title li {
+	display: block;
+	padding-bottom: 20px;
+	
+	}
+	
+	div#navig li{
+
+font-size: 16px;
+}
+
+ul#navi li a {
+	padding-left: 5px;
+  padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 0em;
+	}
+
+div#large {
+display: block;
+position: ;
+}
+ div#navig { 
+position: absolute;
+top: 10px;
+left: 74%;
+font-family: Georgia, serif; 
+border: 0px solid black;
+}
+
+ul#navi {
+	text-align: right;
+}
+
+div#map {
+display: block;
+width: 150px;
+height: 150px;
+border: 1px solid black;
+position: absolute;
+
+
+}
+
+div#captionrightinfo {
+	
+	background: #E8D1D4;
+	width: 286px;
+	height: 178px;
+	float: right;
+	border: 1px solid #A2ABA5;
+	font-size: 14px;
+	max-width: 100%;
+	text-align: center;
+	
+	}
+
+div#info {
+	width: 474px;
+	text-align: center;
+	margin-left: auto;
+margin-right: auto;
+
+
+	}
+	
+div#quickinfo {
+padding-bottom: 40px;
+text-align: left;
+margin: 0px 40px 0px 40px;
+border: 1px solid black;
+position: relative
+}
+
+div#quickpics {
+position: relative;
+left: 10%;
+top: 20px;
+border: 1px solid black;
+}
+
+div#photos {
+	width: 910px;
+	text-align: center;
+	margin-left: auto;
+margin-right: auto;
+	}
+	
+	div#photos a {
+	text-decoration: none;
+	color: black;
+	}
+
+div#party {
+	width: 364px;
+	text-align: center;
+	margin-left: auto;
+margin-right: auto;
+
+
+	}
+
+		
+	div#captionleft, div#captionright {
+	
+	width: 178px;
+	}
+	
+class#smimage img {
+margin: 0px 13px 0px 13px;
+border: 0px solid #666;
+padding: 10px 0px 10px 0px;
+}
+
+div#footer {
+	font-size: 12px;
+	}
+	
+	
+	@media screen and (min-width: 1010px) {
+	
+	
+  .g960 #page {
+    width: 940px; /*Total width works out to 960*/
+    padding: 0px 10px 0px 10px;
+    background-image: url('img/960px-10-60-10-unit.png');
+  }
+  /* See http://978.gs/ */
+  .g978 #page {
+    width: 978px; /*Total with works out to 1008*/
+    padding: 0px 15px 0px 15px;
+    background-image: url('img/978px-15-54-15-unit.png');
+  }
+}

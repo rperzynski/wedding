@@ -12,13 +12,15 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 html{
 /*background-image: url('img/20px-baseline.png');*/
 
-/*width: 978px; Total with works out to 1008
+/*background-image: url('img/978px-15-54-15-unit.png');
+width: 978px; Total with works out to 1008
     padding: 0px 15px 0px 15px;
-    background-image: url('img/978px-15-54-15-unit.png'); */
+     */
 
 }
 
 body {
+/*background-image: url('img/20px-baseline.png');*/
 background: #58373B;
 text-align: center;
 font-family: 'Adamina', serif; 
@@ -105,10 +107,12 @@ padding-bottom: 10px;
 h3 a {
 text-decoration: none;
 color: black;
+
 }
 
 div#bottom {
 text-align: center;
+
 background: white;
 height: 5000px;
 margin-left: auto;
@@ -192,7 +196,7 @@ display: inline;
 width: 99%;
 }	
 
-div#story {
+div#photos {
 	width: 364px;
 	text-align: center;
 	margin-left: auto;
@@ -208,12 +212,18 @@ margin-right: auto;
 
 	}
 
+	div#footer {
+	color: white;
 
+	}
+	
+	
 /* -----------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 978px) {
 
 
 
@@ -260,13 +270,14 @@ max-width: 100%;
 	
 div#bottom {
 text-align: center;
-background: white;
 width: 978px;
 height: 5000px;
 margin-left: auto;
 margin-right: auto;
 position: float;
-
+/*background-image: url('img/978px-15-54-15-unit.png');
+opacity:0.4;
+filter:alpha(opacity=40);*/
 }
 
 ul#title li {
@@ -295,7 +306,7 @@ position: ;
  div#navig { 
 position: absolute;
 top: 10px;
-left: 60%;
+left: 74%;
 font-family: Georgia, serif; 
 border: 0px solid black;
 }
@@ -305,20 +316,62 @@ ul#navi {
 }
 
 div#map {
-display: none;
+display: block;
 width: 150px;
 height: 150px;
 border: 1px solid black;
 position: absolute;
-left: 68%;
-top: 580px;
+
+
 }
 
-div#story {
-	width: 364px;
+div#captionrightinfo {
+	
+	background: #E8D1D4;
+	width: 286px;
+	height: 178px;
+	float: right;
+	border: 1px solid #A2ABA5;
+	font-size: 14px;
+	max-width: 100%;
+	text-align: center;
+	
+	}
+
+div#info {
+	width: 474px;
 	text-align: center;
 	margin-left: auto;
 margin-right: auto;
+
+
+	}
+	
+div#quickinfo {
+padding-bottom: 40px;
+text-align: left;
+margin: 0px 40px 0px 40px;
+border: 1px solid black;
+position: relative
+}
+
+div#quickpics {
+position: relative;
+left: 10%;
+top: 20px;
+border: 1px solid black;
+}
+
+div#photos {
+	width: 910px;
+	text-align: center;
+	margin-left: auto;
+margin-right: auto;
+	}
+	
+	div#photos a {
+	text-decoration: none;
+	color: black;
 	}
 
 div#party {
@@ -336,12 +389,14 @@ margin-right: auto;
 	width: 178px;
 	}
 	
-
-	
+class#smimage img {
+margin: 0px 13px 0px 13px;
+border: 0px solid #666;
+padding: 10px 0px 10px 0px;
+}
 
 div#footer {
-	color: white;
-	font-size: 10px;
+	font-size: 12px;
 	}
 	
 	
