@@ -73,6 +73,14 @@ ul#title li {
 	display: inline;
 
 	}
+	
+	ul#bottomnav  li{
+	display: inline;
+	}
+	
+	div#bots {
+	width: 978;
+	}
 
 h1#head {  
 top: 0px;
@@ -104,11 +112,35 @@ padding-left: 30px;
 padding-bottom: 10px;
 }
 
+
+
 h3 a {
 text-decoration: none;
 color: black;
-
 }
+
+h4 {
+font-weight: bold;
+font-size: 16px;
+}
+
+h5{
+font-weight: bold;
+font-size: 14px;
+}
+
+ul#honor li{
+padding-top: 20px;
+padding-bottom: 0px;
+}
+
+ul#honor li + li {
+padding-top: 0px;
+padding-bottom: 20px;
+font-weight: normal;
+}
+
+
 
 div#bottom {
 text-align: center;
@@ -127,6 +159,8 @@ padding-right: 10px;
 
 }
 
+
+
 img#largeimg {
 max-width: 99%;
 
@@ -135,6 +169,22 @@ max-width: 99%;
 img {
 max-width: 99%;
 }
+
+div#intro {
+border: 0px solid black;
+width: 600px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 60px;
+}
+
+.bots {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+
+	
 
 div#quickinfo {
 padding-bottom: 40px;
@@ -247,7 +297,7 @@ h1#head {
 position: absolute;
 top: 20px;
 font-family: 'Adamina', serif; 
-font-size: 48px;
+font-size: 56px;
 text-align: left;
 color: #292428;
 
@@ -282,7 +332,7 @@ filter:alpha(opacity=40);*/
 
 ul#title li {
 	display: block;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 	
 	}
 	
@@ -321,29 +371,73 @@ width: 150px;
 height: 150px;
 border: 1px solid black;
 position: absolute;
-
-
 }
+
+
+	h6 a{
+	display: inline;
+	text-decoration: none;
+	color: white;
+	background-color:  #8C706D;
+	padding-left: 5px;
+  padding-right: 5px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-radius: 0em;
+	font-size: 24px;
+}
+
+h6 a:hover {
+  color: #EAF2E4;
+  background-color:#BFAD50; /* alternate color for hovering. other choice: #9C968B */
+}
+	
+	h6.event {
+	position: absolute;
+   top: 90px;
+   left: 53px;
+	 
+	 }
+	
+	h6.who {
+	
+   position: absolute;
+   top: 90px;
+   left: 267px;
+  }
+	
+	h6.location {
+		position: absolute;
+		top: 90px;
+		left: 481px;
+		}
+		
+	h6.extra {
+		position: absolute;
+		top: 90px;
+		left: 695px;
+		}
+	
 
 div#captionrightinfo {
 	
 	background: #E8D1D4;
-	width: 286px;
+	width: 400px;
 	height: 178px;
 	float: right;
 	border: 1px solid #A2ABA5;
-	font-size: 14px;
+	font-size: 16px;
 	max-width: 100%;
 	text-align: center;
 	
 	}
 
 div#info {
-	width: 474px;
+	width: 600px;
 	text-align: center;
 	margin-left: auto;
 margin-right: auto;
-
+padding-bottom: 40px;
 
 	}
 	
