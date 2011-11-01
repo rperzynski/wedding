@@ -88,8 +88,8 @@ ul#title li {
 	display: inline;
 	}
 	
-	div#bots {
-	width: 978;
+	.bots {
+	display: none;
 	}
 
 h1#head {  
@@ -161,7 +161,7 @@ div#bottom {
 text-align: center;
 
 background: white;
-height: 5000px;
+height: 4000px;
 margin-left: auto;
 margin-right: auto;
 position: float;
@@ -191,12 +191,10 @@ width: 600px;
 margin-left: auto;
 margin-right: auto;
 padding-top: 60px;
+text-align: left;
 }
 
-.bots {
-   position: relative;
-   width: 100%; /* for IE 6 */
-}
+
 
 
 	
@@ -341,7 +339,7 @@ max-width: 100%;
 div#bottom {
 text-align: center;
 width: 978px;
-height: 5000px;
+height: 3000px;
 margin-left: auto;
 margin-right: auto;
 position: float;
@@ -376,7 +374,7 @@ position: ;
  div#navig { 
 position: absolute;
 top: 10px;
-left: 74%;
+left: 68%;
 font-family: Georgia, serif; 
 border: 0px solid black;
 }
@@ -391,37 +389,44 @@ ul#navi {
 
 div#map {
 display: block;
-width: 150px;
-height: 150px;
-border: 1px solid black;
-position: absolute;
+
 }
+
+.bots {
+	display: block;
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
 
 
 	h6 a{
 	display: inline;
 	text-decoration: none;
-	color: white;
-	background-color:  #8C706D;
+	color:  white;
+	background-color:  #58373B; /*#8C706D;*/
 	padding-left: 5px;
   padding-right: 5px;
 	padding-top: 6px;
 	padding-bottom: 6px;
 	border-radius: 0em;
 	font-size: 30px;
+	opacity: 0.8;
+	
 }
+
 
 h6 a:hover {
   color: #EAF2E4;
-  background-color:#BFAD50; /* alternate color for hovering. other choice: #9C968B */
-}
+  background-color:#BFAD50;
+	opacity: 1.0;
+} 
 	
 	h6.event {
 	position: absolute;
    top: 90px;
    left: 53px;
-	 
-	 }
+	 	 }
 	
 	h6.who {
 	
@@ -478,6 +483,10 @@ position: relative;
 left: 10%;
 top: 20px;
 border: 1px solid black;
+}
+
+div#story {
+padding-bottom: 40px;
 }
 
 div#photos {
