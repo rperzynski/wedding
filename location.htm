@@ -11,7 +11,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="screen.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="grid.css" />
 		<link rel="stylesheet" type="text/css" media="print" href="print.css" />
-    <link href='http://fonts.googleapis.com/css?family=Adamina' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Adamina' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="/js/respond.min.js"></script>
   </head>
   
 	<body>
@@ -28,8 +29,8 @@
 				</div>
 		
 				
-				<img id="largeimg" src="img/top_mack.jpg"/>
-				<h1 id="head">Location</h1>
+				<img id="largeimg" src="img/top_mack.jpg" alt="Picture of Mackinac Island"/>
+				<h1 class="head">Location</h1>
 						
 		</div>
     <div id="bottom">
@@ -43,7 +44,7 @@
 			<div id="loc">
       <h2>Wedding/Reception Location</h2>
       </div>
-      <div id="gmap">
+      <div class="gmap">
         <ul>
           <li><iframe width="240" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?client=ubuntu&amp;channel=cs&amp;q=2170+Sand+Hill+Rd,+Marriottsville,+Howard,+Maryland+21104&amp;ie=UTF8&amp;hl=en&amp;geocode=Fb3jVwIdsyVq-w&amp;split=0&amp;hq=&amp;hnear=2170+Sand+Hill+Rd,+3,+West+Friendship,+Howard,+Maryland+21104&amp;t=m&amp;vpsrc=0&amp;ll=39.314379,-76.929617&amp;spn=0.02125,0.020514&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe></li>
           <li><small><a href="http://maps.google.com/maps?client=ubuntu&amp;channel=cs&amp;q=2170+Sand+Hill+Rd,+Marriottsville,+Howard,+Maryland+21104&amp;ie=UTF8&amp;hl=en&amp;geocode=Fb3jVwIdsyVq-w&amp;split=0&amp;hq=&amp;hnear=2170+Sand+Hill+Rd,+3,+West+Friendship,+Howard,+Maryland+21104&amp;t=m&amp;vpsrc=0&amp;ll=39.314379,-76.929617&amp;spn=0.02125,0.020514&amp;z=14&amp;iwloc=A&amp;source=embed" style="text-align:left">View Larger Map</a></small></li>
@@ -53,13 +54,14 @@
 <!--<iframe id="big" width=120 height=400 frameborder="1" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=2170+sand+hill+rd+marriottsville&amp;ie=UTF8&amp;hq=&amp;hnear=2170+Sand+Hill+Rd,+Marriottsville,+Maryland+21104&amp;gl=us&amp;t=m&amp;vpsrc=0&amp;ll=39.314379,-76.929617&amp;spn=0.009961,0.012789&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe> !-->
 			</div>
 
-      <div id="glocation"> 	
+      <div class="glocation"> 	
 <p>The wedding and reception will be held at 2170 Sand Hill Dr in Marriottsville MD at the home of Donna Leigh and George Gozik - Ashley's aunt and uncle.</p>
       <p>The house is located about 30 minutes west of Baltimore, and about 30 mins from BWI (Baltimore/Washington International Airport).</p>
+     <p>There will be plenty of parking available at the wedding/reception site for our guests.</p>
      <p><a href="http://maps.google.com/maps?q=2170+sand+hill+rd+marriottsville&hnear=2170+Sand+Hill+Rd,+Marriottsville,+Maryland+21104&gl=us&t=m&vpsrc=0&z=16">Click Here</a> to go to Google Maps in order to get the best driving directions</p>
       
       <ul>
-        <li><b>Estimated Drive Times:</b><li>
+        <li><b>Estimated Drive Times:</b></li>
         <li><b>Cleveland:</b> 6.5 hours</li>
         <li><b>Buffalo:</b> 7 hours</li>
         <li><b>Toledo:</b> 8 hours</li>
@@ -74,7 +76,7 @@
 	    		<div id="hotel">
       <h2>Hotel Location</h2>
       </div>
-      <div id="gmap">
+      <div class="gmap">
         <ul>
           <li><iframe width="240" height="318" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=8880+Columbia+100+Parkway,+Columbia,+MD&amp;aq=&amp;sll=39.234015,-76.815033&amp;sspn=0.008526,0.015063&amp;vpsrc=0&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=8880+Columbia+100+Pkwy,+Columbia,+Maryland+21045&amp;t=m&amp;ll=39.234048,-76.815033&amp;spn=0.021274,0.020514&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe></li>
 <li><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=8880+Columbia+100+Parkway,+Columbia,+MD&amp;aq=&amp;sll=39.234015,-76.815033&amp;sspn=0.008526,0.015063&amp;vpsrc=0&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=8880+Columbia+100+Pkwy,+Columbia,+Maryland+21045&amp;t=m&amp;ll=39.234048,-76.815033&amp;spn=0.021274,0.020514&amp;z=14&amp;iwloc=A" style="text-align:left">View Larger Map</a></small></li>
@@ -83,11 +85,12 @@
 
 			</div>
 
-      <div id="glocation"> 	
+      <div class="glocation"> 	
         <ul>
           <li>We have set aside a block of rooms at the <a href="http://www.hamptoninncolumbiamd.com/">Hampton Inn</a> in Columbia MD for guests.</li>
           <li>The hotel is about 10 minutes away from the wedding/reception location.</li>
           <li>Please check back soon for information on how to book a room!</li>
+        </ul>
 
       
 
@@ -119,7 +122,7 @@
  
 
 	</div>	
-  </div>
+  
 	</body>
 	
 </html>

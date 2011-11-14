@@ -83,7 +83,7 @@ ul#title li {
 	display: none;
 	}
 
-h1#head {  
+.head {  
 font-family: 'Adamina', serif; 
 font-size: 24px;
 color: white;
@@ -116,6 +116,10 @@ text-decoration: none;
 color: black;
 }
 
+h3.party {
+  padding-bottom: 20px;
+}
+
 h4 {
 font-weight: bold;
 font-size: 16px;
@@ -130,20 +134,7 @@ h5.faqsub {
 padding-bottom: 10px;
 }
 
-ul#honor li{
-padding-top: 0px;
-padding-bottom: 0px;
-}
 
-ul#honor li + li {
-padding-top: 0px;
-padding-bottom: 0px;
-font-weight: normal;
-}
-
-ul#honor li + li + li {
-padding: 0px 0% 0px 0%;
-}
 
 
 
@@ -154,7 +145,7 @@ text-align: center;
 padding-bottom: 200px;
 margin-left: auto;
 margin-right: auto;
-position: float;
+
 background: white;
 }
 
@@ -193,6 +184,10 @@ padding: 60px 16.35991% 0px 16.35991%;
 
 }
 
+.thanks {
+margin-top: 40px;
+}
+
 /* DELETE??
 
 
@@ -202,11 +197,11 @@ text-align: left;
 }
 */
 
-div#glocation {
+.glocation {
 padding-bottom: 120px;
 }
 
-div#gmap {
+.gmap {
 display: none;
 }
 
@@ -215,7 +210,7 @@ display: none;
 }
 
 
-ul#answers {
+.answers {
 	padding: 0px 5.11247% 20px 5.11247%;
 }
 	
@@ -223,10 +218,24 @@ div#subnav {
 	padding-bottom: 40px;
 }
 
-div#captionright {
-	
-	background: #E8D1D4;
-	width: 170px;
+.captionrightinfo {
+	width: 400px;
+	height: 178px;
+  display: inline;
+	border: 0px solid #A2ABA5;
+	font-size: 16px;
+	max-width: 100%;
+	text-align: center;
+  
+	}
+
+.noshow {
+display: none;
+}
+
+
+.captionright {
+	width: 178px;
 	height: 178px;
 	float: right;
 	border: 1px solid #A2ABA5;
@@ -234,9 +243,8 @@ div#captionright {
 	max-width: 100%;
 	}
 	
-	div#captionleft {
-	background: #E8D1D4;
-	width: 170px;
+	.captionleft {
+	width: 178px;
 	height: 178px;
 	float: left;
 	border: 1px solid #A2ABA5;
@@ -246,7 +254,7 @@ div#captionright {
 	}
 	
 	
-ul#piccaps {
+.piccaps {
 display: inline;
 width: 100%;
 }	
@@ -254,7 +262,7 @@ width: 100%;
 
 
 div#photos {
-	width: 364px;
+	width: 360px;
 	text-align: center;
 	margin-left: auto;
 margin-right: auto;
@@ -265,8 +273,8 @@ div#party {
 	text-align: center;
 	margin-left: auto;
 margin-right: auto;
-
-
+border: 0px solid black;
+margin-top: 40px;
 	}
 
 	div#footer {
@@ -312,7 +320,7 @@ display: block;
 
 }
 
-h1#head {  
+.head {  
 position: absolute;
 top: 20px;
 font-family: 'Adamina', serif; 
@@ -379,6 +387,8 @@ display: block;
 padding-left: 1.5%;
 
 }
+
+
 
 ul#navi {
 	text-align: right;
@@ -449,20 +459,20 @@ h6 a:hover {
 		
 		}
 	 
-div#gmap {
+.gmap {
 display: block;
 float: right;
-margin-right: 10%;
+margin-right: 5%;
 margin-top: 20px;
 }
 
 
-div#gmap iframe {
+.gmap iframe {
 border: 1px solid #A2ABA5
 
 }
 
-div#glocation {
+.glocation {
 
 width: 500px;
 margin-left: 10%;
@@ -481,15 +491,15 @@ margin-bottom: 20px;
 font-size: 14px;
 }
 
-ul#acorn li {
-margin-bottom: 0px;
+.acorn li {
+margin-bottom: 20px;
 }
 
-ul#acorn {
-margin-top: 20px;
+.acorn {
+margin-top: 0px;
 }
 
-div#captionrightinfo {
+.captionrightinfo {
 	
 	background: #E8D1D4;
 	width: 400px;
@@ -500,8 +510,13 @@ div#captionrightinfo {
 	max-width: 100%;
 	text-align: center;
   
-	
 	}
+
+
+.noshow {
+display: block;
+}
+
 
 div#info {
 	width: 600px;
@@ -543,16 +558,27 @@ margin-right: auto;
 	}
 
 div#party {
-	width: 364px;
+	width: 360px;
 	text-align: center;
 	margin-left: auto;
 margin-right: auto;
 	}
 
+.captionright {
+	float: right;
+	}
+	
+	.captionleft {
+	float: left;
+	}
 		
-	div#captionleft, div#captionright {
+	.captionleft, .captionright {
 	width: 178px;
   font-size: 12px;
+  background: #E8D1D4;
+  border: 1px solid #A2ABA5;
+  font-size: 12px;
+	max-width: 100%;
 	}
 	
 class#smimage img {
