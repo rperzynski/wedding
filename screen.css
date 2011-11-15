@@ -154,7 +154,10 @@ padding-left: 3.333333333%; /*10px;*/
 padding-right: 3.333333333%; /*10px;*/
 }
 
-
+.sig {
+font-family: 'Marck Script', cursive;
+font-size: 28px;
+}
 
 img#largeimg {
 max-width: 100%;
@@ -167,7 +170,10 @@ vertical-align: text-top;
 }
 
 
-
+small {
+font-family: Georgia, Arial, sans-serif;
+font-size: 12px;
+}
 
 
 
@@ -262,10 +268,14 @@ width: 100%;
 
 
 div#photos {
-	width: 360px;
+	
 	text-align: center;
 	margin-left: auto;
 margin-right: auto;
+	}
+	
+		.smimage {
+	padding-bottom: 40px;
 	}
 
 div#party {
@@ -277,6 +287,14 @@ border: 0px solid black;
 margin-top: 40px;
 	}
 
+	.aboutone {
+	padding-bottom: 20px;
+	}
+	
+	.abouttwo li + li + li {
+	padding-bottom: 20px;
+	}
+	
 	div#footer {
 	color: white;
 
@@ -327,12 +345,14 @@ display: block;
 .head {  
 position: absolute;
 top: 20px;
-font-family: 'Adamina', serif; 
+font-family: 'Adamina', serif;
+
 font-size: 56px;
 text-align: left;
 color: #292428;
-
 }
+
+
 
 img#largeimg {
 display: block;
@@ -348,7 +368,7 @@ text-align: center;
 width: 978px;
 margin-left: auto;
 margin-right: auto;
-position: float;
+/*position: float;*/
 /*background-image: url('img/978px-15-54-15-unit.png');
 opacity:1.0;
 filter:alpha(opacity=40);*/
@@ -371,7 +391,7 @@ ul#navi li a {
 
 div#large {
 display: block;
-position: ;
+
 }
  div#navig { 
 position: absolute;
@@ -495,9 +515,17 @@ margin-top: 0px;
 font-size: 14px;
 }
 
-.acorn li {
-margin-bottom: 0px;
+ul.acorn li + li  {
+padding-bottom: 0px;
+padding-top: 0px;
 }
+
+ul.acorn li {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
 
 .acorn {
 margin-top: 0px;
@@ -506,7 +534,7 @@ margin-top: 0px;
 .captionrightinfo {
 	
 	background: #E8D1D4;
-	width: 400px;
+	width: 300px;
 	height: 178px;
 	float: right;
 	border: 1px solid #A2ABA5;
@@ -522,11 +550,11 @@ display: block;
 }
 
 	div#info img {
-	border: 1px solid white;
+	border-left: 1px solid #A2ABA5;
 	}
 	
 div#info {
-	width: 584px;
+	width: 483px;
 	text-align: center;
 	margin-left: auto;
 margin-right: auto;
@@ -587,10 +615,12 @@ margin-right: auto;
 	max-width: 100%;
 	}
 	
-class#smimage img {
-margin: 0px 1.3% 0px 1.3%;
-border: 0px solid #666;
-padding: 10px 0px 10px 0px;
+
+	
+.smimage img {
+margin: 10px 1.02% 10px 1.02%;
+
+
 }
 
 div#footer {
@@ -598,18 +628,5 @@ div#footer {
 	}
 	
 	
-	@media screen and (min-width: 1010px) {
 	
-	
-  .g960 #page {
-    width: 940px; /*Total width works out to 960*/
-    padding: 0px 10px 0px 10px;
-    background-image: url('img/960px-10-60-10-unit.png');
-  }
-  /* See http://978.gs/ */
-  .g978 #page {
-    width: 978px; /*Total with works out to 1008*/
-    padding: 0px 15px 0px 15px;
-    background-image: url('img/978px-15-54-15-unit.png');
-  }
 }
