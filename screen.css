@@ -22,7 +22,7 @@ line-height: 20px; /* Set line height for the page to 20px */
 }
 
 a {
-	color: #8C706D;
+	color: #853D52; /*#8C706D;*/
 	text-decoration: none;
 	}
 
@@ -286,13 +286,17 @@ margin-top: 40px;
 
 ul#footnavi li {
 display: inline;
-border-right: 1px solid white;
+border-right: 1px solid #BFACB0;
 padding-left: 0.51124%;
 padding-right: 0.51124%;
 }
 	
 ul#footnavi li + li + li + li + li {
 border-right: 0px solid white;
+}
+
+div#footer a {
+color: #8C706D;
 }
 	
 /* -----------------------------------------------------------------------------------------------------------------------------------------*/
@@ -467,7 +471,7 @@ margin-top: 20px;
 }
 
 
-.gmap iframe {
+.gmap img {
 border: 1px solid #A2ABA5
 
 }
@@ -487,12 +491,12 @@ display: inline;
 }	
 
 ul#piccaps li {
-margin-bottom: 20px;
+margin-top: 0px;
 font-size: 14px;
 }
 
 .acorn li {
-margin-bottom: 20px;
+margin-bottom: 0px;
 }
 
 .acorn {
@@ -517,15 +521,20 @@ margin-top: 0px;
 display: block;
 }
 
-
+	div#info img {
+	border: 1px solid white;
+	}
+	
 div#info {
-	width: 600px;
+	width: 584px;
 	text-align: center;
 	margin-left: auto;
 margin-right: auto;
 padding-bottom: 40px;
 
 	}
+	
+
 	
 div#quickinfo {
 padding-bottom: 40px;
@@ -552,10 +561,7 @@ div#photos {
 margin-right: auto;
 	}
 	
-	div#photos a {
-	text-decoration: none;
-	color: black;
-	}
+
 
 div#party {
 	width: 360px;
