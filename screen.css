@@ -52,6 +52,9 @@ font-size: 18px;
 ul#navi li a.here {
 color: #EAF2E4;
   background-color:#BFAD50;
+	-moz-box-shadow: 2px 2px 2px #333;
+  -webkit-box-shadow: 2px 2px 2px #333;
+  box-shadow: 2px 2px 2px #333;
 }
 
 ul#navi li a.here:hover {
@@ -64,11 +67,19 @@ ul#navi li a{
 	color: white;
 	background-color:  #8C706D;
 	padding: 6px 0.6% 6px 0.6%;
+	-moz-transition: background .1s ease, color .1s;
+  -webkit-transition: background .1s ease, color .1s;
+	-moz-box-shadow: 3px 3px 3px #333;
+  -webkit-box-shadow: 3px 3px 3px #333;
+  box-shadow: 3px 3px 3px #333;
 }
 
 ul#navi li a:hover {
   color: #EAF2E4;
   background-color:#BFAD50; /* alternate color for hovering. other choice: #9C968B */
+	-moz-box-shadow: 2px 2px 2px #333;
+  -webkit-box-shadow: 2px 2px 2px #333;
+  box-shadow: 2px 2px 2px #333;
 }
 
 ul#title li {
@@ -445,6 +456,8 @@ text-align: left;
   padding: 6px 5px 6px 5px;
 	font-size: 30px;
 	opacity: 0.8;
+	-moz-transition: background .3s ease, color .3s;
+  -webkit-transition: background .3s ease, color .3s;
 	
 	
 }
