@@ -10,12 +10,17 @@
    
     <link rel="stylesheet" type="text/css" media="screen" href="screen.css" />
     <link rel="stylesheet" type="text/css" media="print" href="print.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="prettyPhoto.css" />
 		<link rel="SHORTCUT ICON" href="img/favicon.ico"/>
     <link href='http://fonts.googleapis.com/css?family=Adamina' rel='stylesheet' type='text/css' />
+    
     <script type="text/javascript" src="js/respond.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
   </head>
   
 	<body>
+    
     <div id="page">
 			<div id="heading">
 				<div id="navig">
@@ -43,61 +48,70 @@
 			</div>
 			
 			<div id="photos">
+      
+      <script type="text/javascript" charset="utf-8">
+      $(document).ready(function(){
+      $('div.smimage a').attr('rel', 'prettybox[grandsuite]')
+      $("div.smimage a").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, deeplinking: false,  autoplay_slideshow: false});
+      
+      });
+      </script>
+
 				<h2>A History in Pictures</h2>
 					<ul>
 						<li>Rather than tell you "our story", here is a rough timeline of our lives - from the beginning.</li>
 						<li>Pictures are more fun that words anyway.</li>
 					</ul>
 					<div class="smimage">
-						<a href="img/story/a001.jpg"><img src="img/story/a001.jpg" width="180" height="180" alt="Baby Ashley"/></a>
-						<a href="img/story/r001.jpg"><img src="img/story/r001.jpg" width="180" height="180" alt="Baby Ryan"/></a>
-						<a href="img/story/a002.jpg"><img src="img/story/a002.jpg" width="180" height="180" alt="Stroller Ashley"/></a>
-						<a href="img/story/r002.jpg"><img src="img/story/r002.jpg" width="180" height="180" alt="Ryan with puppy"/></a>
+						<a href="img/story/a001.jpg" rel="prettyPhoto" title=""><img src="img/story/a001.jpg"  width="180" height="180" alt="Baby Ashley"/></a>
+						<a href="img/story/r001.jpg" rel="prettyPhoto" title=""><img src="img/story/r001.jpg" width="180" height="180" alt="Baby Ryan"/></a>
+						<a href="img/story/a002.jpg" rel="prettyPhoto" title=""><img src="img/story/a002.jpg" width="180" height="180" alt="Stroller Ashley"/></a>
+						<a href="img/story/r002.jpg" rel="prettyPhoto" title=""><img src="img/story/r002.jpg" width="180" height="180" alt="Ryan with Puppy"/></a>
 					
-						<a href="img/story/r003.jpg"><img src="img/story/r003.jpg" width="180" height="180" alt="Ryan with Family"/></a>
-						<a href="img/story/a003.jpg"><img src="img/story/a003.jpg" width="180" height="180" alt="Ash with dad"/></a>
-						<a href="img/story/r004.jpg"><img src="img/story/r004.jpg" width="180" height="180" alt="Ryan child"/></a>
-						<a href="img/story/a004.jpg"><img src="img/story/a004.jpg" width="180" height="180" alt="Ash with mom"/></a>
+						<a href="img/story/r003.jpg" rel="prettyPhoto" title=""><img src="img/story/r003.jpg" width="180" height="180" alt="Ryan with Family"/></a>
+						<a href="img/story/a003.jpg" rel="prettyPhoto" title=""><img src="img/story/a003.jpg" width="180" height="180" alt="Ash with Dad"/></a>
+						<a href="img/story/r004.jpg" rel="prettyPhoto" title=""><img src="img/story/r004.jpg" width="180" height="180" alt="Ryan Child"/></a>
+						<a href="img/story/a004.jpg" rel="prettyPhoto" title=""><img src="img/story/a004.jpg" width="180" height="180" alt="Ash with Mom"/></a>
 					
-						<a href="img/story/a005.jpg"><img src="img/story/a005.jpg" width="180" height="180" alt="Ash with Dad"/></a>
-						<a href="img/story/r005.jpg"><img src="img/story/r005.jpg" width="180" height="180" alt="Ryan ninja turtle"/></a>
-						<a href="img/story/a006.jpg"><img src="img/story/a006.jpg" width="180" height="180" alt="Ash with cousins"/></a>
-						<a href="img/story/r006.jpg"><img src="img/story/r006.jpg" width="180" height="180" alt="Ryan teen"/></a>
+						<a href="img/story/a005.jpg" rel="prettyPhoto" title=""><img src="img/story/a005.jpg" width="180" height="180" alt="Ash with Dad"/></a>
+						<a href="img/story/r005.jpg" rel="prettyPhoto" title=""><img src="img/story/r005.jpg" width="180" height="180" alt="Ryan Ninja Turtle"/></a>
+						<a href="img/story/a006.jpg" rel="prettyPhoto" title=""><img src="img/story/a006.jpg" width="180" height="180" alt="Ash with Cousins"/></a>
+						<a href="img/story/r006.jpg" rel="prettyPhoto" title=""><img src="img/story/r006.jpg" width="180" height="180" alt="Ryan Teen"/></a>
 					
-						<a href="img/story/r007.jpg"><img src="img/story/r007.jpg" width="180" height="180" alt="Ryan bday"/></a>
-						<a href="img/story/a007.jpg"><img src="img/story/a007.jpg" width="180" height="180" alt="Ash  guitar"/></a>
-						<a href="img/story/r008.jpg"><img src="img/story/r008.jpg" width="180" height="180" alt="Ryan graduates"/></a>
-						<a href="img/story/a008.jpg"><img src="img/story/a008.jpg" width="180" height="180" alt="Ash graduates"/></a>
+						<a href="img/story/r007.jpg" rel="prettyPhoto" title=""><img src="img/story/r007.jpg" width="180" height="180" alt="Ryan Birthday"/></a>
+						<a href="img/story/a007.jpg" rel="prettyPhoto" title=""><img src="img/story/a007.jpg" width="180" height="180" alt="Ash  Guitar"/></a>
+						<a href="img/story/r008.jpg" rel="prettyPhoto" title=""><img src="img/story/r008.jpg" width="180" height="180" alt="Ryan graduates"/></a>
+						<a href="img/story/a008.jpg" rel="prettyPhoto" title=""><img src="img/story/a008.jpg" width="180" height="180" alt="Ash graduates"/></a>
 					
-						<a href="img/story/a009.jpg"><img src="img/story/a009.jpg" width="180" height="180" alt="Ash having fun with Dana"/></a>
-						<a href="img/story/r009.jpg"><img src="img/story/r009.jpg" width="180" height="180" alt="Ryan laughing"/></a>
-						<a href="img/story/a010.jpg"><img src="img/story/a010.jpg" width="180" height="180" alt="Ryan and ashley meet!"/></a>
-						<a href="img/story/r010.jpg"><img src="img/story/r010.jpg" width="180" height="180" alt="Ryan and Ashley Halloween 1"/></a>
+						<a href="img/story/a009.jpg" rel="prettyPhoto" title=""><img src="img/story/a009.jpg" width="180" height="180" alt="Ash having fun with Dana"/></a>
+						<a href="img/story/r009.jpg" rel="prettyPhoto" title=""><img src="img/story/r009.jpg" width="180" height="180" alt="Ryan laughing"/></a>
+						<a href="img/story/a010.jpg" rel="prettyPhoto" title=""><img src="img/story/a010.jpg" width="180" height="180" alt="Ryan and ashley meet!"/></a>
+						<a href="img/story/r010.jpg" rel="prettyPhoto" title=""><img src="img/story/r010.jpg" width="180" height="180" alt="Ryan and Ashley Halloween 1"/></a>
 					
-						<a href="img/story/r011.jpg"><img src="img/story/r011.jpg" width="180" height="180" alt="Ryan Springsteen"/></a>
-						<a href="img/story/a011.jpg"><img src="img/story/a011.jpg" width="180" height="180" alt="Halloween 1b"/></a>
-						<a href="img/story/r012.jpg"><img src="img/story/r012.jpg" width="180" height="180" alt="Formal"/></a>
-						<a href="img/story/a012.jpg"><img src="img/story/a012.jpg" width="180" height="180" alt="Ashley Smiling"/></a>
+						<a href="img/story/r011.jpg" rel="prettyPhoto" title=""><img src="img/story/r011.jpg" width="180" height="180" alt="Ryan Springsteen"/></a>
+						<a href="img/story/a011.jpg" rel="prettyPhoto" title=""><img src="img/story/a011.jpg" width="180" height="180" alt="Halloween 1b"/></a>
+						<a href="img/story/r012.jpg" rel="prettyPhoto" title=""><img src="img/story/r012.jpg" width="180" height="180" alt="Formal"/></a>
+						<a href="img/story/a012.jpg" rel="prettyPhoto" title=""><img src="img/story/a012.jpg" width="180" height="180" alt="Ashley Smiling"/></a>
 					
-						<a href="img/story/a013.jpg"><img src="img/story/a013.jpg" width="180" height="180" alt="Ashley and Megan"/></a>
-						<a href="img/story/r013.jpg"><img src="img/story/r013.jpg" width="180" height="180" alt="Ryan with corn cob"/></a>
-						<a href="img/story/a014.jpg"><img src="img/story/a014.jpg" width="180" height="180" alt="Halloween 2"/></a>
-						<a href="img/story/r014.jpg"><img src="img/story/r014.jpg" width="180" height="180" alt="Ryan and Ash smiling"/></a>
+						<a href="img/story/a013.jpg" rel="prettyPhoto" title=""><img src="img/story/a013.jpg" width="180" height="180" alt="Ashley and Megan"/></a>
+						<a href="img/story/r013.jpg" rel="prettyPhoto" title=""><img src="img/story/r013.jpg" width="180" height="180" alt="Ryan with corn cob"/></a>
+						<a href="img/story/a014.jpg" rel="prettyPhoto" title=""><img src="img/story/a014.jpg" width="180" height="180" alt="Halloween 2"/></a>
+						<a href="img/story/r014.jpg" rel="prettyPhoto" title=""><img src="img/story/r014.jpg" width="180" height="180" alt="Ryan and Ash smiling"/></a>
 					
-						<a href="img/story/r015.jpg"><img src="img/story/r015.jpg" width="180" height="180" alt="Ryan in Chicago"/></a>
-						<a href="img/story/a015.jpg"><img src="img/story/a015.jpg" width="180" height="180" alt="Puppy Charlie"/></a>
-						<a href="img/story/r016.jpg"><img src="img/story/r016.jpg" width="180" height="180" alt="Halloween 3"/></a>
-						<a href="img/story/a016.jpg"><img src="img/story/a016.jpg" width="180" height="180" alt="Ash Smiling"/></a>
+						<a href="img/story/r015.jpg" rel="prettyPhoto" title=""><img src="img/story/r015.jpg" width="180" height="180" alt="Ryan in Chicago"/></a>
+						<a href="img/story/a015.jpg" rel="prettyPhoto" title=""><img src="img/story/a015.jpg" width="180" height="180" alt="Puppy Charlie"/></a>
+						<a href="img/story/r016.jpg" rel="prettyPhoto" title=""><img src="img/story/r016.jpg" width="180" height="180" alt="Halloween 3"/></a>
+						<a href="img/story/a016.jpg" rel="prettyPhoto" title=""><img src="img/story/a016.jpg" width="180" height="180" alt="Ash Smiling"/></a>
 					
-						<a href="img/story/a017.jpg"><img src="img/story/a017.jpg" width="180" height="180" alt="Halloween 4"/></a>
-						<a href="img/story/r017.jpg"><img src="img/story/r017.jpg" width="180" height="180" alt="The whole gang after the Nashville Marathon"/></a>
-						<a href="img/story/a018.jpg"><img src="img/story/a018.jpg" width="180" height="180" alt="Ashley's Family"/></a>
-						<a href="img/story/r018.jpg"><img src="img/story/r018.jpg" width="180" height="180" alt="Charlie sniffing"/></a>
+						<a href="img/story/a017.jpg" rel="prettyPhoto" title=""><img src="img/story/a017.jpg" width="180" height="180" alt="Halloween 4"/></a>
+						<a href="img/story/r017.jpg" rel="prettyPhoto" title=""><img src="img/story/r017.jpg" width="180" height="180" alt="The whole gang after the Nashville Marathon"/></a>
+						<a href="img/story/a018.jpg" rel="prettyPhoto" title=""><img src="img/story/a018.jpg" width="180" height="180" alt="Ashley's Family"/></a>
+						<a href="img/story/r018.jpg" rel="prettyPhoto" title=""><img src="img/story/r018.jpg" width="180" height="180" alt="Charlie sniffing"/></a>
 					
-						<a href="img/story/r019.jpg"><img src="img/story/r019.jpg" width="180" height="180" alt="Ryan and parents in Chicago"/></a>
-						<a href="img/story/a019.jpg"><img src="img/story/a019.jpg" width="180" height="180" alt="Nashville Marathon"/></a>
-						<a href="img/story/r020.jpg"><img src="img/story/a020.jpg" width="180" height="180" alt="Ryan and Ash in Detroit"/></a>
-						<a href="img/story/a020.jpg"><img src="img/story/r020.jpg" width="180" height="180" alt="Ryan and Ash in chicago"/></a>
+						<a href="img/story/r019.jpg" rel="prettyPhoto" title=""><img src="img/story/r019.jpg" width="180" height="180" alt="Ryan and parents in Chicago"/></a>
+						<a href="img/story/a019.jpg" rel="prettyPhoto" title=""><img src="img/story/a019.jpg" width="180" height="180" alt="Nashville Marathon"/></a>
+						<a href="img/story/r020.jpg" rel="prettyPhoto" title=""><img src="img/story/a020.jpg" width="180" height="180" alt="Ryan and Ash in Detroit"/></a>
+						<a href="img/story/a020.jpg" rel="prettyPhoto" title=""><img src="img/story/r020.jpg" width="180" height="180" alt="Ryan and Ash in chicago"/></a>
 						</div>
 						<p><small>Special <a href="extra.htm#about">thanks</a> to anyone who may have taken any of the above pictures.</small></p>
 						<a href="who.htm#navig">Back to top</a>
