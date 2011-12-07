@@ -328,6 +328,10 @@ div#footer a {
 color: #8C706D;
 }
 	
+.prettyp {
+display: none;
+}
+
 /* -----------------------------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -335,7 +339,9 @@ color: #8C706D;
 
 @media screen and (min-width: 978px) {
 
-
+.prettyp {
+display: block;
+}
 
 div#large li{
 	display: block;
