@@ -12,7 +12,7 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 body {
 /*background-image: url('img/20px-baseline.png');*/
-background: #58373B;
+background: #47282b;/*#58373B;*/
 text-align: center;
 font-family: 'Adamina', serif; 
 padding-top: 20px;
@@ -23,6 +23,8 @@ line-height: 20px; /* Set line height for the page to 20px */
 
 a {
 	color: #853D52; /*#8C706D;*/
+	
+
 	text-decoration: none;
 	}
 
@@ -95,7 +97,17 @@ ul#title li {
 	}
 
 .head {  
-font-family: 'Adamina', serif; 
+font-family: 'Special Elite', serif; 
+font-size: 24px;
+color: white;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.headblack {  
+font-family: 'Special Elite', serif; 
 font-size: 24px;
 color: white;
 text-align: center;
@@ -364,14 +376,21 @@ display: block;
 .head {  
 position: absolute;
 top: 20px;
-font-family: 'Adamina', serif;
+font-family: 'Special Elite', serif;
 
 font-size: 56px;
 text-align: left;
-color: #292428;
+color: white; /*#292428;*/
 }
 
-
+.headblack {
+position: absolute;
+top: 20px;
+font-family: 'Special Elite', serif;
+font-size: 56px;
+text-align: left;
+color: black;
+}
 
 img#largeimg {
 display: block;
