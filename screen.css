@@ -230,7 +230,12 @@ text-align: left;
 padding-bottom: 120px;
 }
 
+.indent {
+padding-left: 40px;
+margin-top: 20px;
 
+font-size: 14px;
+}
 
 .gmap {
 display: none;
