@@ -542,6 +542,20 @@ border: 1px solid #A2ABA5
 
 }
 
+.gmapindexright {
+display: block;
+float: right;
+margin-right: 3.3%;
+margin-top: 20px;
+}
+
+.gmapindexleft {
+display: block;
+float: left;
+margin-left: 3.3%;
+margin-top: 20px;
+}
+
 .glocation {
 
 width: 500px;
