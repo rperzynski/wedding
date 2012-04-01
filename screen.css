@@ -537,9 +537,10 @@ margin-top: 20px;
 }
 
 
-.gmap img {
-border: 1px solid #A2ABA5
 
+.gmap img {
+border: 1px solid #A2ABA5;
+margin-bottom: 20px;
 }
 
 .gmapindexright {
