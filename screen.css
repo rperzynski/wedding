@@ -245,6 +245,15 @@ iframe.small {
 display: none;
 }
 
+.gmapindexright {
+display: none;
+
+}
+
+.gmapindexleft {
+display: none;
+
+}
 
 .answers {
 	padding: 0px 5.11247% 20px 5.11247%;
