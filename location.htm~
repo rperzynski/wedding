@@ -48,7 +48,7 @@
       </div>
       <div class="gmap">
         <ul>
-          <li><img src="img/loc_sandhill.jpg" alt="picture of map to house" /></li>
+          <li><a href="http://g.co/maps/mcdcb"><img src="img/loc_sandhill.jpg" alt="picture of map to house" /></a></li>
           
 		  <li><a href="img/yard.jpg"><img src="img/yard.jpg" alt="Map to the hotel"  height="318" width="240"/></a></li>
 		  
